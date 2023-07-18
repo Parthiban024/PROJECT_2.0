@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="fixed-section">
+    <my-navbar></my-navbar>
+    <!-- <div class="section"></div>
+    <div class="animation"></div> -->
+    <section class="">
+      <div class="container">
+        <div class="row mb-5 row-reverse d-center">
+          <div class="col-7 d-flex flex-column justify-content-center w-full">
+            <p class="line-text">Generative AI</p>
+            <h1 class="data-title">Lorem ipsum, dolor sit amet </h1>
+          </div>
+          <div class="col col-md-5 d-flex align-items-center">
+            <img src="img/Gen_AI_loop.svg" class="banner img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="animated-border" class="animated-border">
+    <div class="container">
+      <div class="row mt-5 mb-5 row-reverse d-center">
+        <div class="col-7 d-flex flex-column justify-content-center w-full">
+          <p class="line-text">Data Sourcing</p>
+          <h1 class="data-title">Fastest way to source<br>data</h1>
+        </div>
+        <div class="col col-md-5 mt-5 d-flex align-items-center">
+          <img src="img/Data_sourcing_new.svg" class="banner img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.0.5/locomotive-scroll.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const cursor = document.querySelector('.cursor');
+      const cursorRadius = cursor.offsetWidth / 2; // Calculate the radius of the cursor dot
+
+      document.addEventListener('mousemove', function(e) {
+        const x = e.clientX - cursorRadius;
+        const y = e.clientY - cursorRadius;
+
+        cursor.style.transform = `translate(${x}px, ${y}px)`;
+      });
+    });
+
+</script>
+<script type="text/javascript" src="js/navbar.js"></script>
+</body>
+</html>
