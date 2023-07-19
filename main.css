@@ -64,7 +64,7 @@ box-sizing: border-box;
   margin: 0;
   /* margin-top: 700px; */
   max-width: 120rem;
-    /* padding: 10.5rem 1rem; */
+    padding: 8.5rem 1rem;
 background-color: #fffdf6;
   transform: translateY(0);
   animation: bounceUpDown 1s infinite alternate;
