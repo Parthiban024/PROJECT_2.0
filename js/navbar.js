@@ -43,7 +43,6 @@ class Mynavbar extends HTMLElement {
             transform: translateX(-50%);
             width: 10px;
             height: 10px;
-            // background-color: yellow;
             border-radius: 50%;
           }
           .animate-link {
@@ -74,40 +73,41 @@ class Mynavbar extends HTMLElement {
             border-radius: 0;
           }
         </style>
+
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-center">
+        <li class="nav-item ${currentLocation.includes('index.html') ? 'active' : ''}" >
+          <a class="nav-link animate-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ${currentLocation.includes('cv.html') ? 'active' : ''}">
+          <a class="nav-link animate-link" href="cv.html">Computer Vision</a>
+        </li>
+
+        <li class="nav-item ${currentLocation.includes('nlp.html') ? 'active' : ''}">
+          <a class="nav-link animate-link" href="nlp.html">NLP</a>
+        </li>
+        <li class="nav-item ${currentLocation.includes('gen_ai.html') ? 'active' : ''}">
+        <a class="nav-link animate-link" href="gen_ai.html">Generative AI</a>
+      </li>
+      <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
+      <a class="nav-link animate-link" href="about.html">About</a>
+    </li>
+      </ul>
+     
+      <button class="btn btn-outline-success" type="button">Contact</button>
         
-        <nav class="navbar navbar-expand-lg ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-             Logo
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item  nav-item2 ${currentLocation.includes('index.html') ? 'active' : ''}">
-                  <a class="nav-link animate-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item ${currentLocation.includes('cv.html') ? 'active' : ''}">
-                <a class="nav-link animate-link" href="cv.html" onclick="showLoadingOverlay(event)">Computer Vision</a>
-              </li>
-                <li class="nav-item ${currentLocation.includes('nlp.html') ? 'active' : ''}">
-                  <a class="nav-link animate-link" href="nlp.html">NLP</a>
-                </li>
-                <li class="nav-item ${currentLocation.includes('gen_ai.html') ? 'active' : ''}">
-                  <a class="nav-link animate-link" href="gen_ai.html">Generative AI</a>
-                </li>
-                <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
-                  <a class="nav-link animate-link" href="about.html">About</a>
-                </li>
-              </ul>
-            </div>
-            <div class="navbar-nav">
-              <a class="nav-item nav-link cont" href="#">Contact</a>
-            </div>
-          </div>
-        </nav>`;
+     
+    </div>
+    
+  </div>
+</nav>`;
 
     }
   }

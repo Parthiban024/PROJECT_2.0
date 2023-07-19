@@ -52,32 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  const cursor = document.querySelector('.cursor');
-  const thirdSection = document.querySelector('#animated-border3');
-
-  document.addEventListener('mousemove', function(e) {
-    cursor.style.left = `${e.clientX}px`;
-    cursor.style.top = `${e.clientY}px`;
-
-    if (isCursorInThirdSection(e, thirdSection)) {
-      cursor.classList.add('white');
-    } else {
-      cursor.classList.remove('white');
-    }
-  });
-
-  function isCursorInThirdSection(event, section) {
-    const sectionRect = section.getBoundingClientRect();
-    const cursorX = event.clientX;
-    const cursorY = event.clientY;
-
-    return (
-      cursorX >= sectionRect.left &&
-      cursorX <= sectionRect.right &&
-      cursorY >= sectionRect.top &&
-      cursorY <= sectionRect.bottom
-    );
-  }
+  
 
   function animateOnScroll() {
     const animationElementsLeftToRight = document.querySelectorAll('.animation-element-left-to-right');
