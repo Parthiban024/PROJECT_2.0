@@ -45,83 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(section);
   });
 
-  // Scroll to the top of the page
-  window.addEventListener('scroll', function() {
-    if (window.scrollY === 0) {
-      setActiveDot(0);
-    }
-  });
 
   
-
-  function animateOnScroll() {
-    const animationElementsLeftToRight = document.querySelectorAll('.animation-element-left-to-right');
-    const animationElementsRightToLeft = document.querySelectorAll('.animation-element-right-to-left');
-    const lineText = document.querySelector('.line-text2');
-    const title = document.querySelector('.data-title2');
-    const paragraph = document.querySelectorAll('.data-title2 + p');
-    const button = document.querySelector('.button-con');
-
-    animationElementsLeftToRight.forEach((element, index) => {
-      setTimeout(() => {
-        element.classList.add('show');
-      }, index * 100); // Add a delay between each element animation
-    });
-
-    animationElementsRightToLeft.forEach((element, index) => {
-      setTimeout(() => {
-        element.classList.add('show');
-      }, index * 100); // Add a delay between each element animation
-    });
-
-    lineText.classList.add('show');
-    setTimeout(() => {
-      title.classList.add('show');
-    }, 100);
-
-    paragraph.forEach((element, index) => {
-      setTimeout(() => {
-        element.classList.add('show');
-      }, (index + 2) * 100); // Add a delay between each element animation after lineText and title
-    });
-
-    setTimeout(() => {
-      button.classList.add('show');
-    }, (paragraph.length + 2) * 1000); // Add a delay after all the paragraph elements
-
-    window.removeEventListener('scroll', animateOnScroll);
-  }
-
-  function checkIfInView() {
-    const section = document.getElementById('animated-border');
-    const sectionRect = section.getBoundingClientRect();
-    const windowHeight = window.innerHeight;
-
-    if (sectionRect.top < windowHeight && sectionRect.bottom > 0) {
-      animateOnScroll();
-    }
-  }
-
-  window.addEventListener('scroll', checkIfInView);
-
-  window.addEventListener('scroll', handleScroll);
-
-  function handleScroll() {
-    var header = document.querySelector('.header');
-    var lineText = document.querySelector('.line-text');
-    var dataTitle = document.querySelector('.data-title');
-    var headerPosition = header.getBoundingClientRect().top;
-
-    var screenHeight = window.innerHeight;
-
-    if (headerPosition < screenHeight * 0.8) {
-      lineText.classList.add('active');
-      dataTitle.classList.add('active');
-    } else {
-      lineText.classList.remove('active');
-      dataTitle.classList.remove('active');
-    }
-  }
 
   function isElementInViewport(element) {
     const rect = element.getBoundingClientRect();

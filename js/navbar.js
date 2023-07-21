@@ -60,7 +60,7 @@ class Mynavbar extends HTMLElement {
             width: 100%;
             height: 100%;
             background-color: white;
-            z-index: 2; 
+            z-index: 999; 
             border-top: 2px solid black;
             border-radius: 50%/ 7% 7% 0 0;
             bottom: 0;

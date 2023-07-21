@@ -7,7 +7,8 @@
   <title>Navbar Example</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
-
+  <link rel="stylesheet" href="res.css">
+   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -19,147 +20,72 @@
     <div class="dot"></div>
   </div>
 
+  <header class="headermain" >
+    <my-navbar></my-navbar>
+    <div>
+      <div class="">
+      <section class="container secOne">
+        <div class="row ">
+          <div class="col-md-8 d-flex justify-content-center flex-column">
 
-
-    <section class="fixed-section" style="position: relative;">
-      <my-navbar></my-navbar>
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 d-flex flex-column justify-content-center ">
-            <p class="line-text">
-              <span class="one">G</span>
-              <span class="two">e</span>
-              <span class="three">n</span>
-              <span class="four">e</span>
-              <span class="five">r</span>
-              <span class="six">a</span>
-              <span class="seven">t</span>
-              <span class="eight">i</span>
-              <span class="nine">v</span>
-              <span class="ten">e</span>
-              <span class="eleven"> </span>
-              <span class="twele">A</span>
-              <span class="thirdteen">I</span>
+            <h1 class="data-title">Welcome to a new age of better data</h1>
+            <p class="line-text d-flex justify-content-start mt-lg-5">
+              Social Impact sourced, Skilled, Affordable, Proven Workforce for Data Labeling,
+              Data Sourcing, Human-in-the-Loop & Content Moderation.
             </p>
-            <h1 class="data-title">Lorem ipsum, dolor sit amet </h1>
           </div>
-          <div class="col-lg-5 d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1776 1776" width="1776" height="1776"
-              preserveAspectRatio="xMidYMid meet"
-              style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-              <defs>
-                <clipPath id="__lottie_element_2">
-                  <rect width="1776" height="1776" x="0" y="0"></rect>
-                </clipPath>
-              </defs>
-              <g clip-path="url(#__lottie_element_2)">
-                <g transform="matrix(0,-1,1,0,990,787)" opacity="0.2" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                      stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="1"
-                      d=" M-0.75,-396.6669921875 C218.36900329589844,-396.6669921875 396,-219.70700073242188 396,-1.4170000553131104 C396,-1.4170000553131104 396,393.8330078125 396,393.8330078125 C396,393.8330078125 -0.75,393.8330078125 -0.75,393.8330078125 C-219.86900329589844,393.8330078125 -397.5,216.8730010986328 -397.5,-1.4170000553131104 C-397.5,-219.70700073242188 -219.86900329589844,-396.6669921875 -0.75,-396.6669921875z">
-                    </path>
-                  </g>
-                </g>
-                <g transform="matrix(0,1,-1,0,732.625,1040.31201171875)" opacity="0.2" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                      stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="1"
-                      d=" M-0.75,-396.6669921875 C218.36900329589844,-396.6669921875 396,-219.70700073242188 396,-1.4170000553131104 C396,-1.4170000553131104 396,393.8330078125 396,393.8330078125 C396,393.8330078125 -0.75,393.8330078125 -0.75,393.8330078125 C-219.86900329589844,393.8330078125 -397.5,216.8730010986328 -397.5,-1.4170000553131104 C-397.5,-219.70700073242188 -219.86900329589844,-396.6669921875 -0.75,-396.6669921875z">
-                    </path>
-                  </g>
-                </g>
-                <g transform="matrix(0,-1,1,0,990.375,785.68798828125)" opacity="1" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                    <path id="pencil-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                      stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2"
-                      d=" M396,393.8330078125 C396,393.8330078125 -0.75,393.8330078125 -0.75,393.8330078125 C-219.86900329589844,393.8330078125 -397.5,216.8730010986328 -397.5,-1.4170000553131104 C-397.5,-219.70700073242188 -219.86900329589844,-396.6669921875 -0.75,-396.6669921875 C-0.75,-396.6669921875 -0.75,-396.6669921875 -0.75,-396.6669921875 C218.36900329589844,-396.6669921875 396,-219.70700073242188 396,-1.4170000553131104 C396,-1.4170000553131104 396,393.8330078125 396,393.8330078125 C396,393.8330078125 396,393.8330078125 396,393.8330078125">
-                    </path>
-                  </g>
-                </g>
-                <g transform="matrix(0,-0.6000000238418579,0.6000000238418579,0,1480.4420166015625,444.5870056152344)"
-                  opacity="1" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,89.75,-160.5)">
-                    <path fill="rgb(255,245,155)" fill-opacity="1"
-                      d=" M0,-17.75 C9.796224594116211,-17.75 17.75,-9.796224594116211 17.75,0 C17.75,9.796224594116211 9.796224594116211,17.75 0,17.75 C-9.796224594116211,17.75 -17.75,9.796224594116211 -17.75,0 C-17.75,-9.796224594116211 -9.796224594116211,-17.75 0,-17.75z">
-                    </path>
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                      stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="4"
-                      d=" M0,-17.75 C9.796224594116211,-17.75 17.75,-9.796224594116211 17.75,0 C17.75,9.796224594116211 9.796224594116211,17.75 0,17.75 C-9.796224594116211,17.75 -17.75,9.796224594116211 -17.75,0 C-17.75,-9.796224594116211 -9.796224594116211,-17.75 0,-17.75z">
-                    </path>
-                  </g>
-                </g>
-                <g transform="matrix(0,1,-1,0,732.625,1040.31201171875)" opacity="1" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                      stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2"
-                      d=" M396,393.8330078125 C396,393.8330078125 -0.75,393.8330078125 -0.75,393.8330078125 C-219.86900329589844,393.8330078125 -397.5,216.8730010986328 -397.5,-1.4170000553131104 C-397.5,-219.70700073242188 -219.86900329589844,-396.6669921875 -0.75,-396.6669921875 C-0.75,-396.6669921875 -0.75,-396.6669921875 -0.75,-396.6669921875 C218.36900329589844,-396.6669921875 396,-219.70700073242188 396,-1.4170000553131104 C396,-1.4170000553131104 396,393.8330078125 396,393.8330078125 C396,393.8330078125 396,393.8330078125 396,393.8330078125">
-                    </path>
-                  </g>
-                </g>
-                <g transform="matrix(0,0.6000000238418579,-0.6000000238418579,0,242.55801391601562,1381.4119873046875)"
-                  opacity="1" style="display: block;">
-                  <g opacity="1" transform="matrix(1,0,0,1,89.75,-160.5)">
-                    <path fill="rgb(255,245,155)" fill-opacity="1"
-                      d=" M0,-17.75 C9.796224594116211,-17.75 17.75,-9.796224594116211 17.75,0 C17.75,9.796224594116211 9.796224594116211,17.75 0,17.75 C-9.796224594116211,17.75 -17.75,9.796224594116211 -17.75,0 C-17.75,-9.796224594116211 -9.796224594116211,-17.75 0,-17.75z">
-                    </path>
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                      stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="4"
-                      d=" M0,-17.75 C9.796224594116211,-17.75 17.75,-9.796224594116211 17.75,0 C17.75,9.796224594116211 9.796224594116211,17.75 0,17.75 C-9.796224594116211,17.75 -17.75,9.796224594116211 -17.75,0 C-17.75,-9.796224594116211 -9.796224594116211,-17.75 0,-17.75z">
-                    </path>
-                  </g>
-                </g>
-              </g>
-            </svg>
-
+          <div class="col-md-4">
+            <img src="img/Gen_AI_loop.svg" class="img-fluid banner" alt="Responsive image">
           </div>
         </div>
-      </div>
-      <div class="svg_bump">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" >
-          <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160" />
-        </svg>
-      </div>
-    </section>
+        
+      </section>
+    </div>
+    </div>
 
-
-
-
-    <section id="animated-border" class="animated-border" style="position: relative;">
  
-    
-
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-lg-7 d-flex flex-column justify-content-center animation-element-left-to-right">
+  </header>
+<div class="sec_dummy" style="position: relative;"> 
+  <div class="svg_bump2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+      <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160">
+        <animate attributeName="d" dur="1s" repeatCount="indefinite" values="M0 160 C384 60 1536 60 1920 160; M0 160 C384 40 1536 40 1920 160; M0 160 C384 80 1536 80 1920 160; M0 160 C384 60 1536 60 1920 160;" />
+      </path>
+    </svg>
+    </div>
+  </div>
+<section class="sec_two secOne d-flex justify-content-center" id="Data_Engineering" style="position: relative;">
+  
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 ">
+          
             <p class="line-text2">You have a vision, we have your back</p>
             <h5 class="data-title2">The best startups deserve more than money and<br>cheerleading.</h5><br>
             <p class="data-title2">Along with equity from €500k to €3m in Seed<br>and Series A rounds, we provide other
               essentials<br>you need to make a difference sooner.</p>
             <button class="button-con"><a class="" href="Contact_us.html">Contact</a></button>
-          </div>
-          <div class="col-lg-5 mt-5 d-flex align-items-center animation-element-right-to-left">
-            <div class="d-flex justify-content-evenly">
-              <ul class="check1">
-                <li class="animation-element">SALES ACCELERATION</li>
-                <!-- <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle r="6.715" transform="matrix(1 0 0 -1 9.118 19.721)" fill="#1A1A1A"></circle><path d="M8.765 20.222a.5.5 0 110-1.002h7.77v1.002h-7.77z" fill="#BFFEFF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20.66 8.264a.5.5 0 01.501-.5h2.755a.5.5 0 010 1.001H21.16a.5.5 0 01-.5-.5zm0 8.766a.5.5 0 01.501-.502h2.755a.501.501 0 010 1.002H21.16a.5.5 0 01-.5-.5z" fill="#1A1A1A"></path><path d="M8.014 7.763a.5.5 0 000 1.002H18.28a.5.5 0 000-1.002H8.014zm5.008 3.131a.5.5 0 100 1.001h14.024a.5.5 0 100-1.001H13.022zm21.235 5.251a.5.5 0 01.703.088l2.713 3.488-2.713 3.488a.5.5 0 01-.79-.614l1.845-2.373H15.833a.5.5 0 110-1.002h20.182l-1.845-2.372a.5.5 0 01.087-.703zm-17.478 7.896a.501.501 0 000 1.002h2.754a.5.5 0 100-1.002H16.78zm2.629 3.005a.5.5 0 01.5-.5h10.268a.5.5 0 010 1.001H19.91a.5.5 0 01-.5-.5zm-6.386 2.63a.5.5 0 100 1.002H23.29a.5.5 0 100-1.002H13.022z" fill="#1A1A1A"></path></svg> -->
-                <li class="animation-element">HONEST GUIDANCE</li>
-                <li class="animation-element">OPERATIONAL SUPPORT</li>
-                <li class="animation-element">EXIT</li>
-              </ul>
-            </div>
-          </div>
+
+        </div>
+        <div class="col-md-6 d-flex justify-content-center mt-4">
+          <ul class="check1">
+            <li class="animation-element">SALES ACCELERATION</li>
+            <li class="animation-element">OPERATIONAL SUPPORT</li>
+            <li class="animation-element">EXIT</li>
+          </ul>
         </div>
       </div>
-
-    <div class="svg_bump">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" >
-        <path fill="#00000" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160" />
-      </svg>
-    </div>
-
+      </div>
+      
+      <div class="svg_bump">
+        <svg id="jelly-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160">
+            <!-- The animation values are empty initially -->
+            <animate id="scrollAnimation" attributeName="d" dur="1s" repeatCount="indefinite" values="" />
+          </path>
+        </svg>
+      </div>
     </section>
-<div>
+
     <section id="animated-border3" class="animated-border3 section-black" style="position: relative;">
 
       <div class="container-fluid">
@@ -386,12 +312,15 @@
             </div>
           </div>
           <div class="d-flex justify-content-center mt-5">
-            <button class="button-con mt-5"><a class="" href="Contact_us.html">Contact</a></button>
+            <button class="button-con mb-5"><a class="" href="Contact_us.html">Contact</a></button>
           </div>
         </div>
         <div class="svg_bump">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" >
-            <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160" />
+          <svg id="jelly-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+            <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160">
+              <!-- The animation values are empty initially -->
+              <animate id="scrollAnimation" attributeName="d" dur="1s" repeatCount="indefinite" values="" />
+            </path>
           </svg>
         </div>
     </section>
@@ -400,7 +329,7 @@
       <div class="container">
         <div class="col-lg-12 d-flex flex-column justify-content-center">
           <h2 class="txt-cen text-center headline">Our thoughts on commerce</h2>
-          <p class="sm_para text-center headline2">Next generation merchants tank up here</p>
+          <p class="text-center headline3">Next generation merchants tank up here</p>
         </div>
       </div>
       <div class="slider2 container">
@@ -454,10 +383,13 @@
         </div>
       </div>
       <div class="svg_bump">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160" >
-        <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160" />
-      </svg>
-    </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path fill="#fffdf6" stroke="#000000" stroke-width="2" d="M0 160 C384 60 1536 60 1920 160">
+            <animate id="scrollAnimation" attributeName="d" dur="1s" repeatCount="indefinite" 
+              values="M0 160 C384 60 1536 60 1920 160; M0 160 C384 40 1536 40 1920 160; M0 160 C384 80 1536 80 1920 160; M0 160 C384 60 1536 60 1920 160;" />
+          </path>
+        </svg>
+      </div>
     </section>
     <section class="animated-border4">
       <my-footer></my-footer>
@@ -502,17 +434,7 @@
         sliderContent.style.transform = `translateX(-${currentIndex * newContainerWidth}px)`;
       });
     </script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- <script>
-  ScrollReveal().reveal('.animated-border3', {
-    delay: 200,
-    duration: 1000,
-    distance: '20px',
-    origin: 'bottom',
-    easing: 'ease-in-out',
-    reset: true
-  });
-</script> -->
+ 
     <script>
       (function scrollReveal() {
         window.sr = ScrollReveal();
@@ -529,7 +451,7 @@
           afterReveal: revealChildren,
         }, 150);
 
-        var revealChildren = sr.reveal('.box-text, .box_one, .headline', {
+        var revealChildren = sr.reveal('.box-text,.data-title, .box_one, .headline , .line-text2, .data-title2, .button-con, .animation-element', {
           delay: 400,
           duration: 1000,
           scale: 1,
@@ -539,7 +461,7 @@
           easing: 'ease-out',
           viewFactor: 1,
         }, 75);
-        var revealChildrenTwo = sr.reveal(' .headline2', {
+        var revealChildrenTwo = sr.reveal(' .headline3,.line-text', {
           delay: 700,
           duration: 1000,
           scale: 1,
@@ -552,7 +474,47 @@
       })();
 
     </script>
+<script>
+  // Import the ScrollReveal library from a CDN
+const script = document.createElement('script');
+script.src = 'https://unpkg.com/scrollreveal';
+document.head.appendChild(script);
 
+script.onload = function() {
+  const sr = ScrollReveal();
+  // Split the text into individual characters
+  const textElement = document.querySelector('.text_centtwo');
+  if (textElement) {
+    const textContent = textElement.textContent;
+    textElement.textContent = '';
+
+    for (let i = 0; i < textContent.length; i++) {
+      const character = textContent.charAt(i);
+      const span = document.createElement('span');
+      span.textContent = character;
+      span.style.opacity = 0; // Set initial opacity to 0
+      textElement.appendChild(span);
+    }
+
+    // Apply the reveal animation to each character individually
+    const revealCharacters = sr.reveal('.text_centtwo span', {
+      delay: 1500,
+      duration: 1000,
+      scale: 1,
+      distance: '70px',
+      origin: 'bottom',
+      reset: false,
+      easing: 'ease-out',
+      viewFactor: 0.5,
+      interval: 25, // Delay between each character
+      beforeReveal: function(el) {
+        el.style.opacity = 1; // Set opacity to 1 before each character is revealed
+      }
+    });
+  }
+};
+
+</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 
