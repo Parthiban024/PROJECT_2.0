@@ -1,635 +1,1009 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navbar Example</title>
+  <title>Secret1.0</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="res.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body>
 
+<body>
+  <div class="cursor"></div>
   <div class="dots-container black">
     <div class="dot active"></div>
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
+    <div class="dot"></div>
   </div>
 
-  <div class="fixed-section2">
+  <header class="headermain header_two"  style="position: relative;">
     <my-navbar></my-navbar>
-    <!-- <div class="section"></div>
-    <div class="animation"></div> -->
-    <section class="">
-      <div class="container">
-        <div class="row mb-5 row-reverse d-center">
-          <div class="col-7 d-flex flex-column justify-content-center w-full">
-   
-            <h1 class="data-title">Lorem ipsum, dolor sit amet </h1>
-            <p class="line-text">
-              <span class="one">G</span>
-              <span class="two">e</span>
-              <span class="three">n</span>
-              <span class="four">e</span>
-              <span class="five">r</span>
-              <span class="six">a</span>
-              <span class="seven">t</span>
-              <span class="eight">i</span>
-              <span class="nine">v</span>
-              <span class="ten">e</span>
-              <span class="eleven"> </span>
-              <span class="twele">A</span> 
-              <span class="thirdteen">I</span>
-            </p>
-          </div>
-          <div class="col col-md-5 d-flex align-items-center">
-            <img src="img/Gen_AI_loop.svg" class="banner img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+    <div>
+      <div class="">
+        <section class="container secOne">
+          <div class="row ">
+            <div class="col-md-8 d-flex justify-content-center flex-column">
+              <p class="line-text d-flex justify-content-start mt-lg-5">
+                Data Labeling
+              </p>
+              <h1 class="data-title">High Quality Data<br>
+                = Successful ML Model</h1>
 
-  <section id="animated-border" class="animated-border">
-    <div class="container">
-      <div class="popcard d-flex justify-content-center">
-      <div class="d-flex flex-lg-row flex-md-column flex-sm-column col-7">
-   
-    
-        <div class="d-flex justify-content-center box_two one">
-          <div class="d-flex gap-2">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 18%; height: 75%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_37"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_37)"><g transform="matrix(1,0,0,1,202,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-185,100 C-185,100 181,100 181,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-185,100 C-185,100 181,100 181,100"></path></g></g><g transform="matrix(1,0,0,1,197,229)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-65,100 C-65,100 71,100 71,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-65,100 C-65,100 71,100 71,100"></path></g></g><g transform="matrix(1,0,0,0.9990801215171814,199,201.3251953125)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-70.45999908447266,-22.171001434326172)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path></g></g><g transform="matrix(1,0,0,1,199,201)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1.0796200037002563,0,0,1.0796200037002563,86.31999969482422,2.3570001125335693)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path></g></g><g transform="matrix(1,0,0,1,193,197.18899536132812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,54.027000427246094,-111.85600280761719)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path></g></g></g></svg>
-            <p class="box-text">Lorem ipsum</p>
-          </div>
-       
-      
-         
-        </div>
-    
-    
-      <div class="d-flex justify-content-center box_two two">
-        <div class="d-flex gap-2">
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 18%; height: 75%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_37"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_37)"><g transform="matrix(1,0,0,1,202,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-185,100 C-185,100 181,100 181,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-185,100 C-185,100 181,100 181,100"></path></g></g><g transform="matrix(1,0,0,1,197,229)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-65,100 C-65,100 71,100 71,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-65,100 C-65,100 71,100 71,100"></path></g></g><g transform="matrix(1,0,0,0.9990801215171814,199,201.3251953125)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-70.45999908447266,-22.171001434326172)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path></g></g><g transform="matrix(1,0,0,1,199,201)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1.0796200037002563,0,0,1.0796200037002563,86.31999969482422,2.3570001125335693)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path></g></g><g transform="matrix(1,0,0,1,193,197.18899536132812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,54.027000427246094,-111.85600280761719)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path></g></g></g></svg>
-          <p class="box-text">Lorem ipsum</p>
-        </div>
-     
-    
-       
-      </div>
-    
-
-
-   
-      
-      <div class="d-flex justify-content-center box_two three">
-        <div class="d-flex gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 18%; height: 75%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_54"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_54)"><g transform="matrix(2,0,0,-2,200.61599731445312,196.7779998779297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(4,0,0,4,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="1.567" d=" M0,-23.5 C12.969650268554688,-23.5 23.5,-12.969650268554688 23.5,0 C23.5,12.969650268554688 12.969650268554688,23.5 0,23.5 C-12.969650268554688,23.5 -23.5,12.969650268554688 -23.5,0 C-23.5,-12.969650268554688 -12.969650268554688,-23.5 0,-23.5z"></path></g></g><g transform="matrix(1.9960521459579468,0.12560205161571503,-0.12560205161571503,1.9960521459579468,200.61599731445312,196.7779998779297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(4,0,0,4,0,0)"><path fill="rgb(191,253,255)" fill-opacity="1" d=" M-5.36137580871582,-5.509212970733643 C-5.140960216522217,-6.015187740325928 -4.524744987487793,-6.523989677429199 -3.9862027168273926,-6.644678115844727 C-3.9862027168273926,-6.644678115844727 11.264203071594238,-10.062322616577148 11.264203071594238,-10.062322616577148 C11.80274486541748,-10.18301010131836 12.064973831176758,-9.86849594116211 11.849404335021973,-9.360437393188477 C11.849404335021973,-9.360437393188477 5.775595188140869,4.954437255859375 5.775595188140869,4.954437255859375 C5.560026168823242,5.462495803833008 4.950277805328369,5.9836745262146 4.414854526519775,6.117522716522217 C4.414854526519775,6.117522716522217 -11.269853591918945,10.038477897644043 -11.269853591918945,10.038477897644043 C-11.805277824401855,10.17232608795166 -12.061038970947266,9.870187759399414 -11.84062385559082,9.364212989807129 C-11.84062385559082,9.364212989807129 -5.36137580871582,-5.509212970733643 -5.36137580871582,-5.509212970733643z"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="1.567" d=" M-5.36137580871582,-5.509212970733643 C-5.140960216522217,-6.015187740325928 -4.524744987487793,-6.523989677429199 -3.9862027168273926,-6.644678115844727 C-3.9862027168273926,-6.644678115844727 11.264203071594238,-10.062322616577148 11.264203071594238,-10.062322616577148 C11.80274486541748,-10.18301010131836 12.064973831176758,-9.86849594116211 11.849404335021973,-9.360437393188477 C11.849404335021973,-9.360437393188477 5.775595188140869,4.954437255859375 5.775595188140869,4.954437255859375 C5.560026168823242,5.462495803833008 4.950277805328369,5.9836745262146 4.414854526519775,6.117522716522217 C4.414854526519775,6.117522716522217 -11.269853591918945,10.038477897644043 -11.269853591918945,10.038477897644043 C-11.805277824401855,10.17232608795166 -12.061038970947266,9.870187759399414 -11.84062385559082,9.364212989807129 C-11.84062385559082,9.364212989807129 -5.36137580871582,-5.509212970733643 -5.36137580871582,-5.509212970733643z"></path></g></g><g transform="matrix(2,0,0,-2,200.61599731445312,196.7779998779297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(4,0,0,4,0,0)"><path fill="rgb(5,5,5)" fill-opacity="1" d=" M0,-4.406000137329102 C2.431671380996704,-4.406000137329102 4.406000137329102,-2.431671380996704 4.406000137329102,0 C4.406000137329102,2.431671380996704 2.431671380996704,4.406000137329102 0,4.406000137329102 C-2.431671380996704,4.406000137329102 -4.406000137329102,2.431671380996704 -4.406000137329102,0 C-4.406000137329102,-2.431671380996704 -2.431671380996704,-4.406000137329102 0,-4.406000137329102z"></path></g></g></g></svg>
-          <p class="box-text align-items-center">Lorem ipsum</p>
             </div>
-      </div>
-      
-      
-        <div class="d-flex justify-content-center box_two four">
-          <div class="d-flex gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 18%; height: 75%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_65"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_65)"><g transform="matrix(1,0,0,1,200.5,232.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="6" d=" M51.75,-64.75 C51.75,-64.75 -51.75,-64.75 -51.75,-64.75 C-51.75,-64.75 -51.75,64.75 -51.75,64.75 C-51.75,64.75 51.75,64.75 51.75,64.75 C51.75,64.75 51.75,-64.75 51.75,-64.75z"></path></g></g><g transform="matrix(1,0,0,1,164,200.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,253,255)" fill-opacity="1" d=" M33.73892593383789,-80.54052734375 C33.73892593383789,-80.54052734375 -33.5,-48.75 -33.5,-48.75 C-33.5,-48.75 -33.5,80.75 -33.5,80.75 C-33.5,80.75 33.73892593383789,48.959468841552734 33.73892593383789,48.959468841552734 C33.73892593383789,48.959468841552734 33.73892593383789,-80.54052734375 33.73892593383789,-80.54052734375z"></path><path stroke-linecap="butt" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="6" d=" M33.73892593383789,-80.54052734375 C33.73892593383789,-80.54052734375 -33.5,-48.75 -33.5,-48.75 C-33.5,-48.75 -33.5,80.75 -33.5,80.75 C-33.5,80.75 33.73892593383789,48.959468841552734 33.73892593383789,48.959468841552734 C33.73892593383789,48.959468841552734 33.73892593383789,-80.54052734375 33.73892593383789,-80.54052734375z"></path></g></g><g transform="matrix(1,0,0,1,181.4832305908203,180.49703979492188)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="6" d=" M0,-10 C3.863300085067749,-10 7,-5.519000053405762 7,0 C7,5.519000053405762 3.863300085067749,10 0,10 C-3.863300085067749,10 -7,5.519000053405762 -7,0 C-7,-5.519000053405762 -3.863300085067749,-10 0,-10z"></path></g></g></g></svg>
-            <p class="box-text">Lorem ipsum</p>
-          </div>
-        </div>
-  
-        
-      </div>
-     
-    </div>
-    <div class="col-lg-12 d-flex flex-column justify-content-center cv_pad">
-      <div class="d-flex justify-content-center svg_anime">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 7%; height: 20%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_10"><rect width="400" height="400" x="0" y="0"></rect></clipPath><mask id="__lottie_element_20" mask-type="alpha"><g transform="matrix(1,0,0,1,196.5,209.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-104.5,-12)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="0" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path></g></g></mask></defs><g clip-path="url(#__lottie_element_10)"><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(79,24,232)" fill-opacity="1" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="8" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="8" d=" M142.125,-34.875 C142.125,-34.875 165.375,-4 165.375,-4 C165.375,-4 142.5,28.125 142.5,28.125"></path></g></g><g transform="matrix(1,0,0,1,196.5,209.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-104.5,-12)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="0" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path></g></g><g mask="url(#__lottie_element_20)" style="display: block;"><g transform="matrix(1,0,0,1,200,200)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(79,24,232)" fill-opacity="1" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(191,254,255)" stroke-opacity="1" stroke-width="8" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(191,254,255)" stroke-opacity="1" stroke-width="8" d=" M142.125,-34.875 C142.125,-34.875 165.375,-4 165.375,-4 C165.375,-4 142.5,28.125 142.5,28.125"></path></g></g></g><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-97.75700378417969,-115.25 C-68.26499938964844,-115.25 -17.75,-115.25 -17.75,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M-97.75700378417969,-115.25 C-68.26499938964844,-115.25 -17.75,-115.25 -17.75,-115.25"></path></g></g><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d="M0 0"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d="M0 0"></path></g></g><g transform="matrix(1,0,0,1,200,229.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-40.35200119018555,-115.25 C-0.6890000104904175,-115.25 67.25,-115.25 67.25,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M-40.35200119018555,-115.25 C-0.6890000104904175,-115.25 67.25,-115.25 67.25,-115.25"></path></g></g><g transform="matrix(1,0,0,1,206.75,284.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d="M0 0"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d="M0 0"></path></g></g><g transform="matrix(1,0,0,1,163.5,356.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M9.456000328063965,-115.25 C17.21299934387207,-115.25 30.5,-115.25 30.5,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M9.456000328063965,-115.25 C17.21299934387207,-115.25 30.5,-115.25 30.5,-115.25"></path></g></g><g transform="matrix(1,0,0,1,127,412.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M24.486000061035156,-115.25 C53.61199951171875,-115.25 103.5,-115.25 103.5,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M24.486000061035156,-115.25 C53.61199951171875,-115.25 103.5,-115.25 103.5,-115.25"></path></g></g></g></svg>
-    </div>
-      <h2 class="text-center headline">Sales Acceleration</h2>
-      <p class="sm_para text-center headline2">Qualified Sales leads</p>
-    </div>
-    <div class="container">
-      <div class="row mb-5 row-reverse d-center">
-        <div class="col-7 d-flex flex-column justify-content-center w-full">
- 
-          <p class="line-text2">Connect with our commerce network and quickly match up with people craving your solutions.</p>
-          <p class="text_cent pt-3">"We champion doers who build innovative companies making commerce better.</p>
-        </div>
-        <div class="col col-md-5 d-flex align-items-center svg_animetwo">
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1492 1492" width="1492" height="1492" preserveAspectRatio="xMidYMid meet" style="width: 100%;height: 100%;transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_42"><rect width="1492" height="1492" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_42)"><g transform="matrix(1,0,0,1,419,694)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-28.5,-27 C-28.5,-27 28.5,27 28.5,27"></path></g></g><g transform="matrix(1,0,0,1,611,778)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-45.5,-5 C-45.5,-5 45.5,5 45.5,5"></path></g></g><g transform="matrix(1,0,0,1,823.5,665)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-22.75,36 C-22.75,36 22.75,-36 22.75,-36"></path></g></g><g transform="matrix(1.0171799659729004,0,0,0.9276000261306763,977.3880004882812,650.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-87.30599975585938,55.25 C-87.30599975585938,55.25 87.30599975585938,-55.25 87.30599975585938,-55.25"></path></g></g><g transform="matrix(1,0,0,1,1060.5,436)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-48.75,-46 C-48.75,-46 48.75,46 48.75,46"></path></g></g><g transform="matrix(1,0,0,1,918.5,457)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-16.75,55 C-16.75,55 16.75,-55 16.75,-55"></path></g></g><g transform="matrix(1.2126599550247192,0,0,0.932919979095459,664.427978515625,612.8289794921875)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M28.214000701904297,67.08499908447266 C28.214000701904297,67.08499908447266 -28.214000701904297,-67.08499908447266 -28.214000701904297,-67.08499908447266"></path></g></g><g transform="matrix(1,0,0,1,671.0830078125,373)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M33.95800018310547,-31.5 C33.95800018310547,-31.5 0,0 0,0 C0,0 -33.95800018310547,31.5 -33.95800018310547,31.5"></path></g></g><g transform="matrix(1,0,0,1,815,439.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M27,62.75 C27,62.75 -27,-62.75 -27,-62.75"></path></g></g><g transform="matrix(1,0,0,1,528.5,843)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M12.25,28.5 C12.25,28.5 0,0 0,0 C0,0 -12.25,-28.5 -12.25,-28.5"></path></g></g><g transform="matrix(1,0,0,1,614.5,1057)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M19.25,55.5 C19.25,55.5 0,0 0,0 C0,0 -19.25,-55.5 -19.25,-55.5"></path></g></g><g transform="matrix(1,0,0,1,653,868.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M32.5,-19.75 C32.5,-19.75 -32.5,19.75 -32.5,19.75"></path></g></g><g transform="matrix(1,0,0,1,390,846.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-44,32.25 C-44,32.25 44,-32.25 44,-32.25"></path></g></g><g transform="matrix(1,0,0,1,424,1080)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M63.5,-68.5 C63.5,-68.5 0,0 0,0 C0,0 -63.5,68.5 -63.5,68.5"></path></g></g><g transform="matrix(1,0,0,1,951,827)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M71,9.5 C71,9.5 -71,-9.5 -71,-9.5"></path></g></g><g transform="matrix(1,0,0,1,1191,422.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-8.5,49.75 C-8.5,49.75 8.5,-49.75 8.5,-49.75"></path></g></g><g transform="matrix(1,0,0,1,848.5,914.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-35.25,-37.75 C-35.25,-37.75 0,0 0,0 C0,0 35.25,37.75 35.25,37.75"></path></g></g><g transform="matrix(1,0,0,1,419,694)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-28.5,-27 C-28.5,-27 28.5,27 28.5,27"></path></g></g><g transform="matrix(1,0,0,1,611,778)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-45.5,-5 C-45.5,-5 45.5,5 45.5,5"></path></g></g><g transform="matrix(1,0,0,1,823.5,665)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-22.75,36 C-22.75,36 22.75,-36 22.75,-36"></path></g></g><g transform="matrix(1.0171799659729004,0,0,0.9276000261306763,977.3880004882812,650.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-87.30599975585938,55.25 C-87.30599975585938,55.25 87.30599975585938,-55.25 87.30599975585938,-55.25"></path></g></g><g transform="matrix(1,0,0,1,1060.5,436)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-48.75,-46 C-48.75,-46 48.75,46 48.75,46"></path></g></g><g transform="matrix(1,0,0,1,918.5,457)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-16.75,55 C-16.75,55 16.75,-55 16.75,-55"></path></g></g><g transform="matrix(1.2126599550247192,0,0,0.932919979095459,664.427978515625,612.8289794921875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M28.214000701904297,67.08499908447266 C28.214000701904297,67.08499908447266 -28.214000701904297,-67.08499908447266 -28.214000701904297,-67.08499908447266"></path></g></g><g transform="matrix(1,0,0,1,671.0830078125,373)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M33.95800018310547,-31.5 C33.95800018310547,-31.5 0,0 0,0 C0,0 -33.95800018310547,31.5 -33.95800018310547,31.5"></path></g></g><g transform="matrix(1,0,0,1,815,439.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M27,62.75 C27,62.75 -27,-62.75 -27,-62.75"></path></g></g><g transform="matrix(1,0,0,1,528.5,843)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M12.25,28.5 C12.25,28.5 0,0 0,0 C0,0 -12.25,-28.5 -12.25,-28.5"></path></g></g><g transform="matrix(1,0,0,1,614.5,1057)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M19.25,55.5 C19.25,55.5 0,0 0,0 C0,0 -19.25,-55.5 -19.25,-55.5"></path></g></g><g transform="matrix(1,0,0,1,653,868.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M32.5,-19.75 C32.5,-19.75 -32.5,19.75 -32.5,19.75"></path></g></g><g transform="matrix(1,0,0,1,390,846.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-44,32.25 C-44,32.25 44,-32.25 44,-32.25"></path></g></g><g transform="matrix(1,0,0,1,424,1080)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M63.5,-68.5 C63.5,-68.5 0,0 0,0 C0,0 -63.5,68.5 -63.5,68.5"></path></g></g><g transform="matrix(1,0,0,1,951,827)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M71,9.5 C71,9.5 -71,-9.5 -71,-9.5"></path></g></g><g transform="matrix(1,0,0,1,1191,422.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-8.5,49.75 C-8.5,49.75 8.5,-49.75 8.5,-49.75"></path></g></g><g transform="matrix(1,0,0,1,848.5,914.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-35.25,-37.75 C-35.25,-37.75 0,0 0,0 C0,0 35.25,37.75 35.25,37.75"></path></g></g><g transform="matrix(1,0,0,1,756,788)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,253,255)" fill-opacity="1" d=" M17,20.976999282836914 C23.10099983215332,16.027000427246094 27,8.468999862670898 27,0 C27,-4.918000221252441 25.684999465942383,-9.529000282287598 23.38800048828125,-13.5 C18.719999313354492,-21.56999969482422 9.994000434875488,-27 0,-27 C-6.710999965667725,-27 -12.848999977111816,-24.552000045776367 -17.57200050354004,-20.5 C-23.3439998626709,-15.54800033569336 -27,-8.201000213623047 -27,0 C-27,14.911999702453613 -14.911999702453613,27 0,27 C6.442999839782715,27 12.359000205993652,24.743000030517578 17,20.976999282836914z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M17,20.976999282836914 C23.10099983215332,16.027000427246094 27,8.468999862670898 27,0 C27,-4.918000221252441 25.684999465942383,-9.529000282287598 23.38800048828125,-13.5 C18.719999313354492,-21.56999969482422 9.994000434875488,-27 0,-27 C-6.710999965667725,-27 -12.848999977111816,-24.552000045776367 -17.57200050354004,-20.5 C-23.3439998626709,-15.54800033569336 -27,-8.201000213623047 -27,0 C-27,14.911999702453613 -14.911999702453613,27 0,27 C6.442999839782715,27 12.359000205993652,24.743000030517578 17,20.976999282836914z"></path></g></g><g transform="matrix(1,0,0,1,581,459)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M10.583000183105469,-12 C13.904999732971191,-9.067999839782715 16,-4.7789998054504395 16,0 C16,3.4809999465942383 14.887999534606934,6.703000068664551 13,9.329000473022461 C10.095999717712402,13.369000434875488 5.355000019073486,16 0,16 C-8.836999893188477,16 -16,8.836999893188477 -16,0 C-16,-8.836999893188477 -8.836999893188477,-16 0,-16 C4.058000087738037,-16 7.76200008392334,-14.48900032043457 10.583000183105469,-12z"></path></g></g><g transform="matrix(1,0,0,1,1211,297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,1119,847)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,0.09200000017881393 -12.49899959564209,0.18400000035762787 -12.496999740600586,0.2759999930858612 C-12.350000381469727,7.052000045776367 -6.810999870300293,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,661,1193)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,273,933)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,16.5 C9.11299991607666,16.5 16.5,9.11299991607666 16.5,0 C16.5,-9.11299991607666 9.11299991607666,-16.5 0,-16.5 C-9.11299991607666,-16.5 -16.5,-9.11299991607666 -16.5,0 C-16.5,9.11299991607666 -9.11299991607666,16.5 0,16.5z"></path></g></g><g transform="matrix(1,0,0,1,1172,542)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,875,579)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,6.5 C3.5899999141693115,6.5 6.5,3.5899999141693115 6.5,0 C6.5,-3.5899999141693115 3.5899999141693115,-6.5 0,-6.5 C-3.5899999141693115,-6.5 -6.5,-3.5899999141693115 -6.5,0 C-6.5,3.5899999141693115 -3.5899999141693115,6.5 0,6.5z"></path></g></g><g transform="matrix(1,0,0,1,567,923)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,11.5 C6.35099983215332,11.5 11.5,6.35099983215332 11.5,0 C11.5,-6.35099983215332 6.35099983215332,-11.5 0,-11.5 C-6.35099983215332,-11.5 -11.5,-6.35099983215332 -11.5,0 C-11.5,6.35099983215332 -6.35099983215332,11.5 0,11.5z"></path></g></g><g transform="matrix(1,0,0,1,496,762)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,282,1232)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,355,631)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,953,335)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,754,296)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,942,1002)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,581,459)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M10.583000183105469,-12 C13.904999732971191,-9.067999839782715 16,-4.7789998054504395 16,0 C16,3.4809999465942383 14.887999534606934,6.703000068664551 13,9.329000473022461 C10.095999717712402,13.369000434875488 5.355000019073486,16 0,16 C-8.836999893188477,16 -16,8.836999893188477 -16,0 C-16,-8.836999893188477 -8.836999893188477,-16 0,-16 C4.058000087738037,-16 7.76200008392334,-14.48900032043457 10.583000183105469,-12z"></path></g></g><g transform="matrix(1,0,0,1,1211,297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,1119,847)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,0.09200000017881393 -12.49899959564209,0.18400000035762787 -12.496999740600586,0.2759999930858612 C-12.350000381469727,7.052000045776367 -6.810999870300293,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,661,1193)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,273,933)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,16.5 C9.11299991607666,16.5 16.5,9.11299991607666 16.5,0 C16.5,-9.11299991607666 9.11299991607666,-16.5 0,-16.5 C-9.11299991607666,-16.5 -16.5,-9.11299991607666 -16.5,0 C-16.5,9.11299991607666 -9.11299991607666,16.5 0,16.5z"></path></g></g><g transform="matrix(1,0,0,1,1172,542)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,875,579)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,6.5 C3.5899999141693115,6.5 6.5,3.5899999141693115 6.5,0 C6.5,-3.5899999141693115 3.5899999141693115,-6.5 0,-6.5 C-3.5899999141693115,-6.5 -6.5,-3.5899999141693115 -6.5,0 C-6.5,3.5899999141693115 -3.5899999141693115,6.5 0,6.5z"></path></g></g><g transform="matrix(1,0,0,1,567,923)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,11.5 C6.35099983215332,11.5 11.5,6.35099983215332 11.5,0 C11.5,-6.35099983215332 6.35099983215332,-11.5 0,-11.5 C-6.35099983215332,-11.5 -11.5,-6.35099983215332 -11.5,0 C-11.5,6.35099983215332 -6.35099983215332,11.5 0,11.5z"></path></g></g><g transform="matrix(1,0,0,1,496,762)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,282,1232)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,355,631)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,953,335)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,754,296)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,942,1002)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g></g></svg>
-        </div>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <h5 class="text_centtwo ">Connected with 300+ brands and merchants</h5>
-    </div>
-  
-    </div>
-    <div class="wrapper" data-sr="enter bottom move 100px over 1s">
-      <div class="slider">
-        <div class="slide-track">
-        
-          <!-- Img Code -->
-          <div class="slide" data-sr="enter bottom move 100px over 2s">
-            
-          <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-       
-          </div>
-          
-        
-          
-          <div class="slide" data-sr="enter bottom move 100px over 1s">
-         
-          
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-         
-      
-          </div>
-          
-          <div class="slide">
-           
-      
-            
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-        
-          </div>
-          
-          <div class="slide">
-         
-            
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-          
-          </div>
-          
-          <div class="slide">
-       
-             
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-           
-          </div>
-          
-          <div class="slide">
-           
-          
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-          
-          </div>
-          
-          <div class="slide">
-          
-           
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-             
-          </div>
-          
-          <div class="slide">
-          
-            
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-            
-          </div>
-          
-          <div class="slide">
-         
-          
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-             
-          </div>
-          
-          <div class="slide">
-            
-         
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-           
-          </div>
-          
-          <div class="slide">
-       
-        
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-          
-          </div>
-          
-          <div class="slide">
-         
-       
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-            
-          </div>
-          
-          <div class="slide">
-         
-        
-              <img class="img-fluid card-img" src="img/Gen_AI_loop.svg" alt="">
-           
-          </div>
-          <!-- Img Code End -->
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="animated-border3" class="animated-border3 section-black">
-    <div class="container-fluid">
-      <div class="col-lg-12 d-flex flex-column justify-content-center cv_pad">
-        <div class="d-flex justify-content-center svg_anime">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 12%; height: 65%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_37"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_37)"><g transform="matrix(1,0,0,1,202,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-185,100 C-185,100 181,100 181,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-185,100 C-185,100 181,100 181,100"></path></g></g><g transform="matrix(1,0,0,1,197,229)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-65,100 C-65,100 71,100 71,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-65,100 C-65,100 71,100 71,100"></path></g></g><g transform="matrix(1,0,0,0.9990801215171814,199,201.3251953125)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-70.45999908447266,-22.171001434326172)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path></g></g><g transform="matrix(1,0,0,1,199,201)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1.0796200037002563,0,0,1.0796200037002563,86.31999969482422,2.3570001125335693)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path></g></g><g transform="matrix(1,0,0,1,193,197.18899536132812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,54.027000427246094,-111.85600280761719)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path></g></g></g></svg>
-      </div>
-        <h2 class="text-center headline">Operational support</h2>
-        <p class="sm_para text-center headline2">Unleash your full potential</p>
-      </div>
-  
-  <div class="pt-5">
-    <div class="col-lg-12 d-flex flex-column justify-content-center pt-5">
-      <h5 class="text_cen">Receive high-grade coaching by our 9 operating partners, all seasoned entrepreneurs, and tap into their knowledge of commerce-specific issues to navigate this world skillfully.</h5>
-    </div>
-  </div>
-      <div class="popcard pt-3">
-      <div class="d-flex justify-content-center">
-  <div class="d-flex flex-lg-row flex-md-column flex-sm-column gap-5">
-  
-  <div class="d-flex justify-content-center box_one one">
-    <div class="d-flex ">
-      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-      <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
-        </div>
-  </div>
-  
-  
-    <div class="d-flex justify-content-center box_one one">
-      <div class="d-flex">
-        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-        <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
-      </div>
-   
-  
-     
-    </div>
-  
-  </div>
-  </div>
-  
-  <div class="d-flex justify-content-center mt-4">
-    <div class="d-flex flex-lg-row flex-md-column flex-sm-column gap-5">
-    
-    <div class="d-flex justify-content-center box_one one">
-      <div class="d-flex ">
-        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-        <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
-          </div>
-    </div>
-    
-    
-      <div class="d-flex justify-content-center box_one one">
-        <div class="d-flex">
-          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
-        </div>
-     
-    
-       
-      </div>
-    
-    </div>
-    </div>
-
-
-  </div>
-  </section>
-  <section id="animated-border" class="animated-border animated-border5">
-    <div class="container">
-    <div class="col-lg-12 d-flex flex-column justify-content-center cv_pad">
-      <div class="d-flex justify-content-center svg_anime">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 7%; height: 20%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_10"><rect width="400" height="400" x="0" y="0"></rect></clipPath><mask id="__lottie_element_20" mask-type="alpha"><g transform="matrix(1,0,0,1,196.5,209.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-104.5,-12)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="0" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path></g></g></mask></defs><g clip-path="url(#__lottie_element_10)"><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(79,24,232)" fill-opacity="1" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="8" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="8" d=" M142.125,-34.875 C142.125,-34.875 165.375,-4 165.375,-4 C165.375,-4 142.5,28.125 142.5,28.125"></path></g></g><g transform="matrix(1,0,0,1,196.5,209.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-104.5,-12)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="0" d=" M0,-65 C35.87350082397461,-65 65,-35.87350082397461 65,0 C65,35.87350082397461 35.87350082397461,65 0,65 C-35.87350082397461,65 -65,35.87350082397461 -65,0 C-65,-35.87350082397461 -35.87350082397461,-65 0,-65z"></path></g></g><g mask="url(#__lottie_element_20)" style="display: block;"><g transform="matrix(1,0,0,1,200,200)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(79,24,232)" fill-opacity="1" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(191,254,255)" stroke-opacity="1" stroke-width="8" d=" M165.25,-4.5 C165.25,-4.5 -75.5,-4.5 -75.5,-4.5"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(191,254,255)" stroke-opacity="1" stroke-width="8" d=" M142.125,-34.875 C142.125,-34.875 165.375,-4 165.375,-4 C165.375,-4 142.5,28.125 142.5,28.125"></path></g></g></g><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-97.75700378417969,-115.25 C-68.26499938964844,-115.25 -17.75,-115.25 -17.75,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M-97.75700378417969,-115.25 C-68.26499938964844,-115.25 -17.75,-115.25 -17.75,-115.25"></path></g></g><g transform="matrix(1,0,0,1,200,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d="M0 0"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d="M0 0"></path></g></g><g transform="matrix(1,0,0,1,200,229.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-40.35200119018555,-115.25 C-0.6890000104904175,-115.25 67.25,-115.25 67.25,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M-40.35200119018555,-115.25 C-0.6890000104904175,-115.25 67.25,-115.25 67.25,-115.25"></path></g></g><g transform="matrix(1,0,0,1,206.75,284.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d="M0 0"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d="M0 0"></path></g></g><g transform="matrix(1,0,0,1,163.5,356.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M9.456000328063965,-115.25 C17.21299934387207,-115.25 30.5,-115.25 30.5,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M9.456000328063965,-115.25 C17.21299934387207,-115.25 30.5,-115.25 30.5,-115.25"></path></g></g><g transform="matrix(1,0,0,1,127,412.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M24.486000061035156,-115.25 C53.61199951171875,-115.25 103.5,-115.25 103.5,-115.25"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="10" d=" M24.486000061035156,-115.25 C53.61199951171875,-115.25 103.5,-115.25 103.5,-115.25"></path></g></g></g></svg>
-    </div>
-      <h2 class="text-center headline">Sales Acceleration</h2>
-      <p class="sm_para text-center headline2">Qualified Sales leads</p>
-    </div>
-    <div class="container">
-      <div class="row mb-5 row-reverse d-center">
-        <div class="col col-md-5 d-flex align-items-center svg_animetwo">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1492 1492" width="1492" height="1492" preserveAspectRatio="xMidYMid meet" style="width: 100%;height: 100%;transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_42"><rect width="1492" height="1492" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_42)"><g transform="matrix(1,0,0,1,419,694)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-28.5,-27 C-28.5,-27 28.5,27 28.5,27"></path></g></g><g transform="matrix(1,0,0,1,611,778)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-45.5,-5 C-45.5,-5 45.5,5 45.5,5"></path></g></g><g transform="matrix(1,0,0,1,823.5,665)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-22.75,36 C-22.75,36 22.75,-36 22.75,-36"></path></g></g><g transform="matrix(1.0171799659729004,0,0,0.9276000261306763,977.3880004882812,650.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-87.30599975585938,55.25 C-87.30599975585938,55.25 87.30599975585938,-55.25 87.30599975585938,-55.25"></path></g></g><g transform="matrix(1,0,0,1,1060.5,436)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-48.75,-46 C-48.75,-46 48.75,46 48.75,46"></path></g></g><g transform="matrix(1,0,0,1,918.5,457)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-16.75,55 C-16.75,55 16.75,-55 16.75,-55"></path></g></g><g transform="matrix(1.2126599550247192,0,0,0.932919979095459,664.427978515625,612.8289794921875)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M28.214000701904297,67.08499908447266 C28.214000701904297,67.08499908447266 -28.214000701904297,-67.08499908447266 -28.214000701904297,-67.08499908447266"></path></g></g><g transform="matrix(1,0,0,1,671.0830078125,373)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M33.95800018310547,-31.5 C33.95800018310547,-31.5 0,0 0,0 C0,0 -33.95800018310547,31.5 -33.95800018310547,31.5"></path></g></g><g transform="matrix(1,0,0,1,815,439.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M27,62.75 C27,62.75 -27,-62.75 -27,-62.75"></path></g></g><g transform="matrix(1,0,0,1,528.5,843)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M12.25,28.5 C12.25,28.5 0,0 0,0 C0,0 -12.25,-28.5 -12.25,-28.5"></path></g></g><g transform="matrix(1,0,0,1,614.5,1057)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M19.25,55.5 C19.25,55.5 0,0 0,0 C0,0 -19.25,-55.5 -19.25,-55.5"></path></g></g><g transform="matrix(1,0,0,1,653,868.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M32.5,-19.75 C32.5,-19.75 -32.5,19.75 -32.5,19.75"></path></g></g><g transform="matrix(1,0,0,1,390,846.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-44,32.25 C-44,32.25 44,-32.25 44,-32.25"></path></g></g><g transform="matrix(1,0,0,1,424,1080)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M63.5,-68.5 C63.5,-68.5 0,0 0,0 C0,0 -63.5,68.5 -63.5,68.5"></path></g></g><g transform="matrix(1,0,0,1,951,827)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M71,9.5 C71,9.5 -71,-9.5 -71,-9.5"></path></g></g><g transform="matrix(1,0,0,1,1191,422.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-8.5,49.75 C-8.5,49.75 8.5,-49.75 8.5,-49.75"></path></g></g><g transform="matrix(1,0,0,1,848.5,914.5)" opacity="0.2" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-35.25,-37.75 C-35.25,-37.75 0,0 0,0 C0,0 35.25,37.75 35.25,37.75"></path></g></g><g transform="matrix(1,0,0,1,419,694)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-28.5,-27 C-28.5,-27 28.5,27 28.5,27"></path></g></g><g transform="matrix(1,0,0,1,611,778)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-45.5,-5 C-45.5,-5 45.5,5 45.5,5"></path></g></g><g transform="matrix(1,0,0,1,823.5,665)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-22.75,36 C-22.75,36 22.75,-36 22.75,-36"></path></g></g><g transform="matrix(1.0171799659729004,0,0,0.9276000261306763,977.3880004882812,650.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-87.30599975585938,55.25 C-87.30599975585938,55.25 87.30599975585938,-55.25 87.30599975585938,-55.25"></path></g></g><g transform="matrix(1,0,0,1,1060.5,436)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-48.75,-46 C-48.75,-46 48.75,46 48.75,46"></path></g></g><g transform="matrix(1,0,0,1,918.5,457)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-16.75,55 C-16.75,55 16.75,-55 16.75,-55"></path></g></g><g transform="matrix(1.2126599550247192,0,0,0.932919979095459,664.427978515625,612.8289794921875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M28.214000701904297,67.08499908447266 C28.214000701904297,67.08499908447266 -28.214000701904297,-67.08499908447266 -28.214000701904297,-67.08499908447266"></path></g></g><g transform="matrix(1,0,0,1,671.0830078125,373)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M33.95800018310547,-31.5 C33.95800018310547,-31.5 0,0 0,0 C0,0 -33.95800018310547,31.5 -33.95800018310547,31.5"></path></g></g><g transform="matrix(1,0,0,1,815,439.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M27,62.75 C27,62.75 -27,-62.75 -27,-62.75"></path></g></g><g transform="matrix(1,0,0,1,528.5,843)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M12.25,28.5 C12.25,28.5 0,0 0,0 C0,0 -12.25,-28.5 -12.25,-28.5"></path></g></g><g transform="matrix(1,0,0,1,614.5,1057)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M19.25,55.5 C19.25,55.5 0,0 0,0 C0,0 -19.25,-55.5 -19.25,-55.5"></path></g></g><g transform="matrix(1,0,0,1,653,868.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M32.5,-19.75 C32.5,-19.75 -32.5,19.75 -32.5,19.75"></path></g></g><g transform="matrix(1,0,0,1,390,846.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-44,32.25 C-44,32.25 44,-32.25 44,-32.25"></path></g></g><g transform="matrix(1,0,0,1,424,1080)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M63.5,-68.5 C63.5,-68.5 0,0 0,0 C0,0 -63.5,68.5 -63.5,68.5"></path></g></g><g transform="matrix(1,0,0,1,951,827)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M71,9.5 C71,9.5 -71,-9.5 -71,-9.5"></path></g></g><g transform="matrix(1,0,0,1,1191,422.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-8.5,49.75 C-8.5,49.75 8.5,-49.75 8.5,-49.75"></path></g></g><g transform="matrix(1,0,0,1,848.5,914.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M-35.25,-37.75 C-35.25,-37.75 0,0 0,0 C0,0 35.25,37.75 35.25,37.75"></path></g></g><g transform="matrix(1,0,0,1,756,788)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,253,255)" fill-opacity="1" d=" M17,20.976999282836914 C23.10099983215332,16.027000427246094 27,8.468999862670898 27,0 C27,-4.918000221252441 25.684999465942383,-9.529000282287598 23.38800048828125,-13.5 C18.719999313354492,-21.56999969482422 9.994000434875488,-27 0,-27 C-6.710999965667725,-27 -12.848999977111816,-24.552000045776367 -17.57200050354004,-20.5 C-23.3439998626709,-15.54800033569336 -27,-8.201000213623047 -27,0 C-27,14.911999702453613 -14.911999702453613,27 0,27 C6.442999839782715,27 12.359000205993652,24.743000030517578 17,20.976999282836914z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M17,20.976999282836914 C23.10099983215332,16.027000427246094 27,8.468999862670898 27,0 C27,-4.918000221252441 25.684999465942383,-9.529000282287598 23.38800048828125,-13.5 C18.719999313354492,-21.56999969482422 9.994000434875488,-27 0,-27 C-6.710999965667725,-27 -12.848999977111816,-24.552000045776367 -17.57200050354004,-20.5 C-23.3439998626709,-15.54800033569336 -27,-8.201000213623047 -27,0 C-27,14.911999702453613 -14.911999702453613,27 0,27 C6.442999839782715,27 12.359000205993652,24.743000030517578 17,20.976999282836914z"></path></g></g><g transform="matrix(1,0,0,1,581,459)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M10.583000183105469,-12 C13.904999732971191,-9.067999839782715 16,-4.7789998054504395 16,0 C16,3.4809999465942383 14.887999534606934,6.703000068664551 13,9.329000473022461 C10.095999717712402,13.369000434875488 5.355000019073486,16 0,16 C-8.836999893188477,16 -16,8.836999893188477 -16,0 C-16,-8.836999893188477 -8.836999893188477,-16 0,-16 C4.058000087738037,-16 7.76200008392334,-14.48900032043457 10.583000183105469,-12z"></path></g></g><g transform="matrix(1,0,0,1,1211,297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,1119,847)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,0.09200000017881393 -12.49899959564209,0.18400000035762787 -12.496999740600586,0.2759999930858612 C-12.350000381469727,7.052000045776367 -6.810999870300293,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,661,1193)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,273,933)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,16.5 C9.11299991607666,16.5 16.5,9.11299991607666 16.5,0 C16.5,-9.11299991607666 9.11299991607666,-16.5 0,-16.5 C-9.11299991607666,-16.5 -16.5,-9.11299991607666 -16.5,0 C-16.5,9.11299991607666 -9.11299991607666,16.5 0,16.5z"></path></g></g><g transform="matrix(1,0,0,1,1172,542)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,875,579)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,6.5 C3.5899999141693115,6.5 6.5,3.5899999141693115 6.5,0 C6.5,-3.5899999141693115 3.5899999141693115,-6.5 0,-6.5 C-3.5899999141693115,-6.5 -6.5,-3.5899999141693115 -6.5,0 C-6.5,3.5899999141693115 -3.5899999141693115,6.5 0,6.5z"></path></g></g><g transform="matrix(1,0,0,1,567,923)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,11.5 C6.35099983215332,11.5 11.5,6.35099983215332 11.5,0 C11.5,-6.35099983215332 6.35099983215332,-11.5 0,-11.5 C-6.35099983215332,-11.5 -11.5,-6.35099983215332 -11.5,0 C-11.5,6.35099983215332 -6.35099983215332,11.5 0,11.5z"></path></g></g><g transform="matrix(1,0,0,1,496,762)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,282,1232)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,355,631)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,953,335)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,754,296)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,942,1002)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path fill="rgb(255,245,155)" fill-opacity="1" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,581,459)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M10.583000183105469,-12 C13.904999732971191,-9.067999839782715 16,-4.7789998054504395 16,0 C16,3.4809999465942383 14.887999534606934,6.703000068664551 13,9.329000473022461 C10.095999717712402,13.369000434875488 5.355000019073486,16 0,16 C-8.836999893188477,16 -16,8.836999893188477 -16,0 C-16,-8.836999893188477 -8.836999893188477,-16 0,-16 C4.058000087738037,-16 7.76200008392334,-14.48900032043457 10.583000183105469,-12z"></path></g></g><g transform="matrix(1,0,0,1,1211,297)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,1119,847)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,0.09200000017881393 -12.49899959564209,0.18400000035762787 -12.496999740600586,0.2759999930858612 C-12.350000381469727,7.052000045776367 -6.810999870300293,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,661,1193)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12.5 C6.9039998054504395,12.5 12.5,6.9039998054504395 12.5,0 C12.5,-6.9039998054504395 6.9039998054504395,-12.5 0,-12.5 C-6.9039998054504395,-12.5 -12.5,-6.9039998054504395 -12.5,0 C-12.5,6.9039998054504395 -6.9039998054504395,12.5 0,12.5z"></path></g></g><g transform="matrix(1,0,0,1,273,933)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,16.5 C9.11299991607666,16.5 16.5,9.11299991607666 16.5,0 C16.5,-9.11299991607666 9.11299991607666,-16.5 0,-16.5 C-9.11299991607666,-16.5 -16.5,-9.11299991607666 -16.5,0 C-16.5,9.11299991607666 -9.11299991607666,16.5 0,16.5z"></path></g></g><g transform="matrix(1,0,0,1,1172,542)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,875,579)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,6.5 C3.5899999141693115,6.5 6.5,3.5899999141693115 6.5,0 C6.5,-3.5899999141693115 3.5899999141693115,-6.5 0,-6.5 C-3.5899999141693115,-6.5 -6.5,-3.5899999141693115 -6.5,0 C-6.5,3.5899999141693115 -3.5899999141693115,6.5 0,6.5z"></path></g></g><g transform="matrix(1,0,0,1,567,923)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,11.5 C6.35099983215332,11.5 11.5,6.35099983215332 11.5,0 C11.5,-6.35099983215332 6.35099983215332,-11.5 0,-11.5 C-6.35099983215332,-11.5 -11.5,-6.35099983215332 -11.5,0 C-11.5,6.35099983215332 -6.35099983215332,11.5 0,11.5z"></path></g></g><g transform="matrix(1,0,0,1,496,762)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g><g transform="matrix(1,0,0,1,282,1232)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,355,631)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,953,335)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,5.5 C3.0380001068115234,5.5 5.5,3.0380001068115234 5.5,0 C5.5,-3.0380001068115234 3.0380001068115234,-5.5 0,-5.5 C-3.0380001068115234,-5.5 -5.5,-3.0380001068115234 -5.5,0 C-5.5,3.0380001068115234 -3.0380001068115234,5.5 0,5.5z"></path></g></g><g transform="matrix(1,0,0,1,754,296)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,9 C4.9710001945495605,9 9,4.9710001945495605 9,0 C9,-4.9710001945495605 4.9710001945495605,-9 0,-9 C-4.9710001945495605,-9 -9,-4.9710001945495605 -9,0 C-9,4.9710001945495605 -4.9710001945495605,9 0,9z"></path></g></g><g transform="matrix(1,0,0,1,942,1002)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2,0,0,2,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(26,26,26)" stroke-opacity="1" stroke-width="2" d=" M0,12 C6.626999855041504,12 12,6.626999855041504 12,0 C12,-6.626999855041504 6.626999855041504,-12 0,-12 C-6.626999855041504,-12 -12,-6.626999855041504 -12,0 C-12,6.626999855041504 -6.626999855041504,12 0,12z"></path></g></g></g></svg>
-         </div>
-        <div class="col-7 d-flex flex-column justify-content-center w-full">
- 
-          <p class="line-text2">Connect with our commerce network and quickly match up with people craving your solutions.</p>
-          <p class="txt_cen txtt">"We champion doers who build innovative companies making commerce better.</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <h5 class="txt_cen">Connected with 300+ brands and merchants</h5>
-    </div>
-  
-    </div>
-
-  </section>
-  <section id="animated-border3" class="animated-border3 section-black">
-    <div class="container-fluid">
-      <div class="col-lg-12 d-flex flex-column justify-content-center cv_pad">
-        <div class="d-flex justify-content-center svg_anime">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet" style="width: 12%; height: 65%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_37"><rect width="400" height="400" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_37)"><g transform="matrix(1,0,0,1,202,200)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-185,100 C-185,100 181,100 181,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-185,100 C-185,100 181,100 181,100"></path></g></g><g transform="matrix(1,0,0,1,197,229)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M-65,100 C-65,100 71,100 71,100"></path><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M-65,100 C-65,100 71,100 71,100"></path></g></g><g transform="matrix(1,0,0,0.9990801215171814,199,201.3251953125)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-70.45999908447266,-22.171001434326172)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-77.99849700927734 C43.04737091064453,-77.99849700927734 77.99849700927734,-43.04737091064453 77.99849700927734,0 C77.99849700927734,43.04737091064453 43.04737091064453,77.99849700927734 0,77.99849700927734 C-43.04737091064453,77.99849700927734 -77.99849700927734,43.04737091064453 -77.99849700927734,0 C-77.99849700927734,-43.04737091064453 -43.04737091064453,-77.99849700927734 0,-77.99849700927734z"></path></g></g><g transform="matrix(1,0,0,1,199,201)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1.0796200037002563,0,0,1.0796200037002563,86.31999969482422,2.3570001125335693)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-44.996498107910156 C24.833566665649414,-44.996498107910156 44.996498107910156,-24.833566665649414 44.996498107910156,0 C44.996498107910156,24.833566665649414 24.833566665649414,44.996498107910156 0,44.996498107910156 C-24.833566665649414,44.996498107910156 -44.996498107910156,24.833566665649414 -44.996498107910156,0 C-44.996498107910156,-24.833566665649414 -24.833566665649414,-44.996498107910156 0,-44.996498107910156z"></path></g></g><g transform="matrix(1,0,0,1,193,197.18899536132812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,54.027000427246094,-111.85600280761719)"><path fill="rgb(191,254,255)" fill-opacity="1" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="10" d=" M0,-37.10449981689453 C20.47797393798828,-37.10449981689453 37.10449981689453,-20.47797393798828 37.10449981689453,0 C37.10449981689453,20.47797393798828 20.47797393798828,37.10449981689453 0,37.10449981689453 C-20.47797393798828,37.10449981689453 -37.10449981689453,20.47797393798828 -37.10449981689453,0 C-37.10449981689453,-20.47797393798828 -20.47797393798828,-37.10449981689453 0,-37.10449981689453z"></path></g></g></g></svg>
-      </div>
-        <h2 class="text-center headline">Operational support</h2>
-        <p class="sm_para text-center headline2">Unleash your full potential</p>
-      </div>
-
-      <div class="popcard pt-3">
-
-  
-  <div class="d-flex justify-content-center mt-4">
-    <div class="d-flex flex-lg-row flex-md-column flex-sm-column gap-5">
-      <div class="d-flex justify-content-center box_one one">
-        <div class="d-flex ">
-          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
+            <div class="col-md-4 ">
+              <div class="d-flex justify-content-center align-content-center banner_img">
+                <img src="img/Data_labeling.svg" alt="">
+              </div>
             </div>
-      </div>
-    <div class="d-flex justify-content-center box_one four">
-      <div class="d-flex ">
-        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-        <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
           </div>
+          <div class="svg_bump">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+              <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+                d="M0 80 C384 60 1536 60 1920 80" />
+            </svg>
+          </div>
+        </section>
+      </div>
     </div>
-    
-    
-      <div class="d-flex justify-content-center box_one svg_anime">
-        <div class="d-flex">
-          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.272 15.395c-9.387 0-16.997 7.61-16.997 16.996 0 9.387 7.61 16.997 16.997 16.997 2.158 0 4.22-.402 6.117-1.134 1.264-.488 2.977-1.582 4.15-2.408 1.247-.877 1.873-1.463 2.844-2.64a16.923 16.923 0 003.885-10.815c0-9.386-7.61-16.996-16.996-16.996zM13.675 32.391c0-10.27 8.326-18.596 18.597-18.596 10.27 0 18.596 8.326 18.596 18.596 0 4.495-1.596 8.62-4.251 11.835-1.06 1.283-1.79 1.967-3.157 2.928-1.18.831-3.032 2.028-4.495 2.592a18.554 18.554 0 01-6.693 1.242c-10.27 0-18.597-8.326-18.597-18.597z" fill="#FFFDF6"></path><path d="M21.99 31.121h0l2.938 2.956 3.076 3.238.027.027 3.777 3.682a2 2 0 002.815-.022L52.02 23.489a2 2 0 00.025-2.794l-.722.692.722-.692-2.537-2.645a2 2 0 00-2.869-.018L32.931 31.958l-5.867-5.906a2 2 0 00-2.838 0l-2.235 2.25a2 2 0 000 2.82z" fill="#BFFEFF" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          <p class="mt-3 box-text">Lorem ipsum dolor sit</p>
+
+
+  </header>
+  <section class="sec_two secOne" style="position: relative;">
+    <div>
+    <h5 class="txt-cen2 text-center headline">Our Services
+
+    </h5>
+  </div>
+    <h2 class="txt-cen text-center headline mt-2">When you need qualified annotators
+      who can do all.</h2>
+    <div class="container pt-5">
+      <div>
+        <p class="text-center headline3">Computer Vision</p>
+        <div class="block d-flex flex-wrap mb-5 pb-3">
+
+          <div class="box One">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Lider_3D_point_cloud.svg" alt="">
+          </div>
+            <p class="text-center">Lidar 3D Point Cloud</p>
+            <p class="text-center hover-content">Estimate the trajectory of an object in a sequence of images</p>
+          </div>
+          <div class="box Two">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Line _Polyline.svg" alt="">
+          </div>
+            <p class="text-center">Line & Polyline</p>
+            <p class="text-center hover-content">Create continuous line annotation made of one
+              or more line segments</p>
+          </div>
+          <div class="box One">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Segmentation.svg" alt="">
+          </div>
+            <p class="text-center">Segmentation</p>
+            <p class="text-center hover-content">Annotate each pixel of
+              an image</p>
+          </div>
+          <div class="box Two">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Bounding_Box.svg" alt="">
+          </div>
+            <p class="text-center">Bounding Box</p>
+            <p class="text-center hover-content">Create Bounding Boxes around interested objects</p>
+          </div>
         </div>
-     
-    
-       
       </div>
-    
-    </div>
-    </div>
+      <div class="block d-flex flex-wrap mb-5">
+        <div class="box One">
+          <div class="d-flex justify-content-center">
+          <img class="img-fluid card-img " src="img/Polygon.svg" alt="">
+        </div>
+          <p class="text-center">Polygon</p>
+          <p class="text-center hover-content">Create continuous line annotation made of one
+            or more line segments</p>
+        </div>
+        <div class="box Two">
+          <div class="d-flex justify-content-center"> 
+          <img class="img-fluid card-img " src="img/Spline_2.svg" alt="">
+        </div>
+          <p class="text-center">Spline</p>
+          <p class="text-center hover-content">Create annotation using
+            splines</p>
+        </div>
+        <div class="box One">
+          <div class="d-flex justify-content-center">
+          <img class="img-fluid card-img " src="img/Keypoints.svg" alt="">
+        </div>
+          <p class="text-center">Keypoints</p>
+          <p class="text-center hover-content">Detect small objects and shape variations by creating dots across the image
+          </p>
+        </div>
+        <div class="box Two">
+          <div class="d-flex justify-content-center">
+          <img class="img-fluid card-img " src="img/Medical Imaging.svg" alt="">
+        </div>
+          <p class="text-center">Medical Imaging</p>
+          <p class="text-center hover-content">Create Bounding Boxes, polygons on DICOM
+            Images</p>
+        </div>
+      </div>
+      <div>
 
+        <div class="mt-5">
+          <p class="text-center mt-5 mb-5">NLP</p>
+        <div class="block d-flex flex-wrap mb-5">
+            <div class="box One">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Classification.svg" alt="">
+          </div>
+            <p class="text-center">Classification</p>
+            <p class="text-center hover-content">Categorize any kind of
+              text</p>
+          </div>
+          <div class="box Two">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Named Entity Recognition.svg" alt="">
+          </div>
+            <p class="text-center">Named Entity Recognition</p>
+            <p class="text-center hover-content">Identify people, locations, and organizations within a body of text.</p>
+          </div>
+          <div class="box One">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/OCR (1).svg" alt="">
+          </div>
+            <p class="text-center">OCR</p>
+            <p class="text-center hover-content">Extract characters of a text within the images</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div>
 
-  </div>
+       <div class="mt-5">
+        <p class="text-center mt-5 mb-5">Other Services</p>
+        <div class="block d-flex flex-wrap">
+
+          <div class="box One">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid card-img" src="img/Video annotation (1).svg" alt="">
+            </div>
+            <p class="text-center">Video Annotation</p>
+            <p class="text-center hover-content">Hours-long video files or short video files - We have SME's who can make it a breeze to annotate them</p>
+          </div>
+          
+          <div class="box Two">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Audio annotation (1).svg" alt="">
+          </div>
+            <p class="text-center">Audio Annotation</p>
+            <p class="text-center hover-content">Either an one-on-one conversation or an empire's call on a crowded ground -
+              We can assist with all sort of audio annotations.</p>
+          </div>
+          <div class="box One">
+            <div class="d-flex justify-content-center">
+            <img class="img-fluid card-img " src="img/Language Translation.svg" alt="">
+          </div>
+            <p class="text-center">Language Translation</p>
+            <p class="text-center hover-content">Either an one-on-one conversation or an empire's call on a crowded ground -
+              We can assist with all sort of audio annotations.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+<div class="svg_bump">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+        <path class="animated_path" fill="#ddffc2" stroke="#000000" stroke-width="2"
+          d="M0 80 C384 60 1536 60 1920 80" />
+      </svg>
+    </div>
   </section>
+  <section class="secOne sec_green" id="Data_Engineering" style="position: relative;">
+    <h5 class="txt-cen2 text-center headline">Our Process
+
+    </h5>
+
+    <div class="container mt-5  flex-wrap ">
+      <div class="row">
+          <div class="col">
+              <div class="line-stepper-container">
+                  <div class="line-stepper" id="lineStepper"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row mt-3 our_process">
+          <div class="col d-flex flex-column justify-content-center process_one">
+              <img src="img/Project initiation and consultation.svg" alt="Image 1" class="img-thumbnail" onclick="moveStepper(0)">
+              <div class="image-info">
+                <h3>Project Initiation and Consultation</h3>
+              <div class="process_list">
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+                </div>
+            </div>
+          </div>
+          <div class="col d-flex flex-column justify-content-center">
+              <img src="img/Launch sample job.svg" alt="Image 2" class="img-thumbnail" onclick="moveStepper(1)">
+              <div class="image-info">
+                <h3>Launch Sample Job</h3>
+                <div class="process_list">
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+                </div>
+         
+            </div>
+          </div>
+          <div class="col d-flex flex-column justify-content-center">
+              <img src="img/Iterate on instructions.svg" alt="Image 3" class="img-thumbnail" onclick="moveStepper(2)">
+              <div class="image-info">
+                <h3>Iterate on Instruction</h3>
+                <div class="process_list">
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+                </div>
+             
+            </div>
+          </div>
+          <div class="col d-flex flex-column justify-content-center">
+              <img src="img/Client feedback.svg" alt="Image 4" class="img-thumbnail" onclick="moveStepper(3)">
+              <div class="image-info">
+                <h3>Client Feedback</h3>
+             
+                <div class="process_list">
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+                </div>
+            </div>
+          </div>
+          <div class="col d-flex flex-column justify-content-center process_three">
+              <img src="img/Launch production job.svg" alt="Image 5" class="img-thumbnail" onclick="moveStepper(4)">
+              <div class="image-info">
+                <h3>Launch Production Job</h3>
+                <div class="process_list">
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                  <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+                </div>
+               
+            </div>
+          </div>
+          <div class="col d-flex flex-column justify-content-center process_two">
+            <img src="img/Deliver data.svg" alt="Image 6" class="img-thumbnail" onclick="moveStepper(5)">
+            <div class="image-info">
+              <h3>Deliver Data</h3>
+              <div class="process_list">
+                <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+                <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+                <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+              </div>
+         
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="svg_bump">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+        <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+          d="M0 80 C384 60 1536 60 1920 80" />
+      </svg>
+    </div>
+  </section>
+  <!-- <section id="animated-border3" class="animated-border3 section-black" style="position: relative;">
+
+    <div class="container-fluid">
+      <div class="">
+        <div class="col-lg-12 d-flex flex-column justify-content-center">
+          <h5 class="text_cen">A Few of Our Customers</h5>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="slider ">
+          <div class="slide-track">
+
+    
+            <div class="slide" data-sr="enter bottom move 100px over 2s">
+              <div class="">
+                <img class="img-fluid card-img " src="img/aws_logo.png" alt="">
+              </div>
+            </div>
 
 
-  <section class="sectionOne">
+
+            <div class="slide" data-sr="enter bottom move 100px over 1s">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/luna_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide ">
+
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/impero_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img pt-3 pb-3" src="img/Amazon_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/ubi_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/sony_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/powercor_logo(1).png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img" src="img/thomson_logo.png" alt="">
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="">
+
+                <img class="img-fluid card-img pt-2 pb-3" src="img/Deloitte_Logo.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 d-flex flex-column justify-content-center">
+        <h5 class="txt-cen2 text-center headline">Our Valued Partners
+
+        </h5>
+      </div>
+      <div class="popcard mt-5">
+        <div class="d-flex justify-content-center">
+          <div class="d-flex flex-lg-row flex-column flex-md-column flex-sm-column gap-5">
+            <div class="d-flex justify-content-center box_one">
+              <div class="d-flex ">
+                <div class="">
+
+                  <img class="img-fluid card-img pt-2 pb-3" src="img/kognic.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center box_one">
+              <div class="d-flex">
+                <div class="d-flex ">
+                  <div class="">
+
+                    <img class="img-fluid card-img pt-2 pb-3" src="img/Dataloop_logo.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <div class="d-flex flex-lg-row flex-column flex-md-column flex-sm-column gap-5">
+            <div class="d-flex justify-content-center box_one">
+              <div class="d-flex ">
+                <div class="d-flex ">
+                  <div class="">
+
+                    <img class="img-fluid card-img pt-2 pb-3" src="img/aws_logo.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center box_one">
+              <div class="d-flex">
+                <div class="d-flex ">
+                  <div class="">
+
+                    <img class="img-fluid card-img pt-2 pb-3" src="img/Alegion.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <div class="d-flex flex-lg-row flex-md-column flex-sm-column gap-5">
+
+            <div class="d-flex justify-content-center box_one">
+              <div class="d-flex ">
+                <div class="d-flex ">
+                  <div class="">
+
+                    <img class="img-fluid card-img pt-2 pb-3" src="img/logo_no_shadow-with_text-margin.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button class="button-con mb-5"><a class="" href="Contact_us.html">Contact</a></button>
+        </div>
+      </div>
+      <div class="svg_bump">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+            d="M0 80 C384 60 1536 60 1920 80" />
+        </svg>
+      </div>
+  </section> -->
+  <!-- <section class="sec_three secOne" id="Data_Engineering" style="position: relative;">
+    <p class="text-center headline3">Our Custom Tools</p>
+    <div class="container-fluid">
+      <div class="steps d-flex justify-content-center flex-wrap gap-2 flex-md-row flex-column">
+        <a href="javascript:void(0);" data-tab="one" class="active"><img src="img/Video Annotation.svg"
+            alt="Tool-image">PDF Annotation</a>
+        <a href="javascript:void(0);" data-tab="two"><img src="img/PDF Annotation.svg" alt="Tool-image">PDF
+          Annotation</a>
+        <a href="javascript:void(0);" data-tab="three"><img src="img/NLP.svg" alt="Tool-image">&PDF Annotation</a>
+        <a href="javascript:void(0);" data-tab="four"><img src="img/OCR.svg" alt="Tool-image">PDF Annotation</a>
+        <a href="javascript:void(0);" data-tab="five"><img src="img/HIERACHIAL DETECTION.svg" alt="Tool-image">PDF
+          Annotation</a>
+        <a href="javascript:void(0);" data-tab="six"><img src="img/Pose estimation.svg" alt="Tool-image">PDF
+          Annotation</a>
+        <a href="javascript:void(0);" data-tab="seven"><img src="img/Audio annotation.svg" alt="Tool-image">PDF
+          Annotation</a>
+        <a href="javascript:void(0);" data-tab="eight"><img src="img/Spline.svg" alt="Tool-image">PDF Annotation</a>
+        <div class="clear"></div>
+      </div>
+
+      <div class="tabContainer container d-flex justify-content-center gap-2 flex-wrap">
+        <div id="one" class="Tabcondent active ">
+          <div class="video-container">
+            <video autoplay muted loop controls>
+              <source src="img/videos/video.mov" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div id="two" class="Tabcondent">
+          <div class="video-container">
+            <video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/PDF.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div id="three" class="Tabcondent">
+          <div class="video-container">
+            <video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/NLP1.mov" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div id="four" class="Tabcondent">
+          <div class="video-container">
+            <video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/ocr_final.mp4" type="video/mp4">
+            </video>
+
+          </div>
+        </div>
+        <div id="five" class="Tabcondent">
+          <div class="video-container"><video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/hierarchy.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div id="six" class="Tabcondent">
+          <div class="video-container"><video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/pose_estimation.mp4" type="video/mp4">
+            </video></div>
+        </div>
+        <div id="seven" class="Tabcondent">
+          <div class="video-container"><video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/audio.mov" type="video/mp4">
+            </video></div>
+        </div>
+        <div id="eight" class="Tabcondent">
+          <div class="video-container"><video autoplay muted loop controls>
+              <source class="img-fluid" src="img/videos/spline1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svg_bump">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+        <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+          d="M0 80 C384 60 1536 60 1920 80" />
+      </svg>
+    </div>
+  </section> -->
+  <!-- <section class="animated-border4">
     <div class="container">
-      <div class="d-flex flex-column justify-content-center w-full">
- 
-        <p class="line-text2 text-center emp_txt">Empowering merchants and consumers to move forward faster.</p>
-        
+      <div class="col-lg-12 d-flex flex-column justify-content-center">
+        <div class="text-center">
+          <p class="text-center headline3">Use Cases</p>
+          <h2 class="txt-cen text-center headline">How we assisted some of the<br>
+            leading industries?</h2>
+        </div>
+        <p class="text-center headline3">Our focus is quality</p>
+      </div>
+    </div>
+    <div class="sliderMain container">
+
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center ">
+            <img src="img/Autonomous Vehicle.svg" alt="Image 1">
+          </div>
+          <h3 class="text-center">Autonomous Vehicle</h3>
+        </div>
+        <a href="">
+          <p class="">3D Point Cloud can get really complex with varying sequences, multiple frames and down sampled
+            sparse LiDAR point clouds. We have annotated millions of Lidar frames at highest quality of 99.5% and
+            matched delivery speed by our customers.</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
+
+      </div>
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center">
+            <img src="img/Drone Imagery.svg" alt="Image 2">
+
+          </div>
+          <h3 class="text-center">Drone Imagery</h3>
+        </div>
+
+        <a href="">
+          <p class="">As the complexity and availability of drones has increased so has the capabilities of cameras and
+            other equipment used. We have annotated transmission lines, vegetation, terrains and countless other
+            objects.</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
+      </div>
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center">
+            <img src="img/financial services.svg" alt="Image 3">
+          </div>
+          <h3 class="text-center">Financial Services</h3>
+        </div>
+
+        <a href="">
+          <p class="">We have enabled some of the largest Financial services and Healthcare companies to bring domain
+            expertise and language skills to for high quality labeling for Natural Language Processing(NLP).</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
+      </div>
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center">
+            <img src="img/Manufacturing.svg" alt="Image 4">
+
+          </div>
+          <h3 class="text-center">Manufacturing</h3>
+        </div>
+
+        <a href="">
+          <p class="">Data labeling for Manufacturing use case needs special skills such as Welding certifications(CAWI)
+            for identifying welding defects or corrosion defects, process expertise in manufacturing lines. Our teams
+            have done it all.</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
+      </div>
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center">
+            <img src="img/Media  Entertainment.svg" alt="Image 5">
+          </div>
+          <h3 class="text-center">Media & Entertainment</h3>
+        </div>
+
+        <a href="">
+          <p class="">Content understanding, Media transcription, Search relevance are specialized ML problems. We have
+            special teams operating 24x7 as human-in-the-loop to improve ML models.</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
+      </div>
+      <div class="ms-5 slide_hov">
+        <div class="slide_card">
+          <div class="d-flex justify-content-center">
+            <img src="img/Healthcare  Life Sciences.svg" alt="Image 6">
+          </div>
+          <h3 class="text-center">Healthcare & Life Sciences</h3>
+
+        </div>
+
+        <a href="">
+          <p class="">Whether you want to build models to automate prescription filing, insurance settlements, complex
+            Ontology extraction in Doctors notes or segmentation using X-Rays, you can depend on our skilled annotators,
+            nurses and Doctors to provide +99% accuracy for labeling.</p>
+        </a>
+        <a href="" class="learn_more">Learn more</a>
       </div>
 
-<div class="d-flex justify-content-center headline3">
-      <button class="button-con btn_cont"><a class="btn_cont" href="Contact_us.html">Contact</a></button>
 
     </div>
-  </div>
-  </section>
+    <div class="slider-controls">
+      <button class="slick-prev slider-control" aria-label="Previous"><svg fill="none"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M5.761 8.131a.866.866 0 00-1.237 0L0 12.75l4.524 4.619a.866.866 0 101.237-1.212l-2.48-2.532h19.844a.875.875 0 000-1.75H3.281l2.48-2.532a.866.866 0 000-1.212z"
+            fill="#1A1A1A"></path>
+        </svg></button>
+      <button class="slick-next slider-control" aria-label="Next"><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M18.239 8.131a.866.866 0 011.237 0L24 12.75l-4.524 4.619a.866.866 0 11-1.237-1.212l2.48-2.532H.875a.875.875 0 010-1.75h19.844l-2.48-2.532a.866.866 0 010-1.212z"
+            fill="#1A1A1A"></path>
+        </svg></button>
+    </div>
+    <div class="svg_bump">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+        <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+          d="M0 80 C384 60 1536 60 1920 80" />
+      </svg>
+    </div>
+  </section> -->
   <section class="animated-border4">
     <my-footer></my-footer>
   </section>
-  <script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  (function scrollReveal() {
-  window.sr = ScrollReveal();
-  
-  sr.reveal('.sectionOne,', {
-    delay: 400,
-    duration   : 700,
-    distance   : '50px',
-    easing     : 'ease-out',
-    origin     : 'bottom',
-    reset      : false,
-    scale      : 1,
-    viewFactor : 0,
-    afterReveal  : revealChildren,
-  }, 150);
-  
-    var revealChildren = sr.reveal('.one', {
-  
-    duration   : 1000,
-    scale      : 1,
-    distance   : '50px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal('.two', {
-   
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal('.three', {
-   
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal('.four', {
-    
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal('.svg_anime', {
-      
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .headline', {
- 
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .headline2', {
-  delay:500,
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .line-text2', {
- 
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .svg_animetwo', {
-  
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .headline3', {
-     
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-  var revealChildrenTwo = sr.reveal(' .headline4', {
-     
-    duration   : 1000,
-    scale      : 1,
-    distance   : '70px',
-    origin     : 'bottom',
-    reset      : false,
-    easing     : 'ease-out',
-    viewFactor : 1,
-  }, 75);
-})();
+  <script>
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const sliderContent = document.querySelector('.slider-content');
+    const sliderItems = document.querySelectorAll('.slider-item');
+    const containerWidth = document.querySelector('.slider2').offsetWidth;
+    const itemWidth = containerWidth / 3; // Width of each item
+    const numItems = sliderItems.length;
+    const numVisibleItems = Math.min(3, numItems);
+    const numSlides = Math.ceil(numItems / numVisibleItems);
+    let currentIndex = 0;
 
-</script>
+    // Set initial position of slider
+    sliderContent.style.transform = `translateX(0)`;
 
-<script>
-  // Import the ScrollReveal library from a CDN
-const script = document.createElement('script');
-script.src = 'https://unpkg.com/scrollreveal';
-document.head.appendChild(script);
+    // Handle previous button click
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        sliderContent.style.transform = `translateX(-${currentIndex * containerWidth}px)`;
+      }
+    });
 
-script.onload = function() {
-  const sr = ScrollReveal();
+    // Handle next button click
+    nextBtn.addEventListener('click', () => {
+      if (currentIndex < numSlides - 1) {
+        currentIndex++;
+        sliderContent.style.transform = `translateX(-${currentIndex * containerWidth}px)`;
+      }
+    });
 
-  // Apply the reveal animation to the text within the '.txt_cen' class
-  const revealText = sr.reveal('.txt_cen', {
+    // Adjust slider width on window resize
+    window.addEventListener('resize', () => {
+      const newContainerWidth = document.querySelector('.slider').offsetWidth;
+      const newNumVisibleItems = Math.min(3, numItems);
+      const newNumSlides = Math.ceil(numItems / newNumVisibleItems);
+      currentIndex = Math.min(currentIndex, newNumSlides - 1);
+      sliderContent.style.transform = `translateX(-${currentIndex * newContainerWidth}px)`;
+    });
+  </script>
 
-      duration: 1000,
-      scale: 1,
-      distance: '70px',
-      origin: 'bottom',
-      reset: false,
-      easing: 'ease-out',
-      viewFactor: 0.5,
-      interval: 20, // Delay between each character
-      beforeReveal: function(el) {
+  <script>
+    (function scrollReveal() {
+      window.sr = ScrollReveal();
+
+      sr.reveal('.box_one, .sliderMain, .para_head', {
+        delay: 400,
+        duration: 700,
+        distance: '50px',
+        easing: 'ease-out',
+        origin: 'bottom',
+        reset: false,
+        scale: 1,
+        viewFactor: 0,
+        afterReveal: revealChildren,
+      }, 150);
+
+      var revealChildren = sr.reveal('.box-text,.data-title, .box_one,  , .line-text2, .data-title2, .button-con, .animation-element, ', {
+        delay: 400,
+        duration: 1000,
+        scale: 1,
+        distance: '50px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildrenTwo = sr.reveal(' .headline3,.line-text ,.headline', {
+        delay: 700,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildren = sr.reveal('.One', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'top',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+      var revealChildren = sr.reveal('.Two', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'bottom',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+      var revealChildren = sr.reveal('.One', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'top',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+        opacity: 1, // Set the desired opacity value
+      }, 75);
+      var revealChildren = sr.reveal('.Two', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'bottom',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+        opacity: 1, // Set the desired opacity value
+      }, 75);
+    })();
+
+  </script>
+  <script>
+    // Import the ScrollReveal library from a CDN
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/scrollreveal';
+    document.head.appendChild(script);
+
+    script.onload = function () {
+      const sr = ScrollReveal();
       // Split the text into individual characters
-      const textContent = el.textContent;
-      el.textContent = '';
+      const textElement = document.querySelector('.text_centtwo');
+      if (textElement) {
+        const textContent = textElement.textContent;
+        textElement.textContent = '';
 
-      for (let i = 0; i < textContent.length; i++) {
-        const character = textContent.charAt(i);
-        const span = document.createElement('span');
-        span.textContent = character;
-        span.style.opacity = 0; // Set initial opacity to 0
-        el.appendChild(span);
+        for (let i = 0; i < textContent.length; i++) {
+          const character = textContent.charAt(i);
+          const span = document.createElement('span');
+          span.textContent = character;
+          span.style.opacity = 0; // Set initial opacity to 0
+          textElement.appendChild(span);
+        }
+
+        // Apply the reveal animation to each character individually
+        const revealCharacters = sr.reveal('.text_centtwo span', {
+          delay: 1500,
+          duration: 1000,
+          scale: 1,
+          distance: '70px',
+          origin: 'bottom',
+          reset: false,
+          easing: 'ease-out',
+          viewFactor: 0.5,
+          interval: 25, // Delay between each character
+          beforeReveal: function (el) {
+            el.style.opacity = 1; // Set opacity to 1 before each character is revealed
+          }
+        });
       }
-    },
-    afterReveal: function(el) {
-      const spanElements = el.querySelectorAll('span');
-      spanElements.forEach(function(span, index) {
-        setTimeout(function() {
-          span.style.opacity = 1; // Set opacity to 1 for each character with a delay
-        }, 50 * index); // Delay between each character
+    };
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sliderMain').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: $('.slider-controls .slick-prev'),
+        nextArrow: $('.slider-controls .slick-next'),
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       });
-    }
-  });
-
-  // Split the text into individual characters
-  const lineText = document.querySelector('.text_cent');
-  if (lineText) {
-    const textContent = lineText.textContent;
-    lineText.textContent = '';
-
-    for (let i = 0; i < textContent.length; i++) {
-      const character = textContent.charAt(i);
-      const span = document.createElement('span');
-      span.textContent = character;
-      span.style.opacity = 0; // Set initial opacity to 0
-      lineText.appendChild(span);
-    }
-
-    // Apply the reveal animation to each character individually
-    const revealCharacters = sr.reveal('.text_cent span', {
-      duration: 1000,
-      scale: 1,
-      distance: '70px',
-      origin: 'bottom',
-      reset: false,
-      easing: 'ease-out',
-      viewFactor: 0.5,
-      interval: 25, // Delay between each character
-      afterReveal: function(el) {
-        el.style.opacity = 1; // Set opacity to 1 after each character is revealed
-      }
     });
-  }
-
-  // Split the text into individual characters
-  const textElement = document.querySelector('.text_centtwo');
-  if (textElement) {
-    const textContent = textElement.textContent;
-    textElement.textContent = '';
-
-    for (let i = 0; i < textContent.length; i++) {
-      const character = textContent.charAt(i);
-      const span = document.createElement('span');
-      span.textContent = character;
-      span.style.opacity = 0; // Set initial opacity to 0
-      textElement.appendChild(span);
-    }
-
-    // Apply the reveal animation to each character individually
-    const revealCharacters = sr.reveal('.text_centtwo span', {
-      delay: 1500,
-      duration: 1000,
-      scale: 1,
-      distance: '70px',
-      origin: 'bottom',
-      reset: false,
-      easing: 'ease-out',
-      viewFactor: 0.5,
-      interval: 25, // Delay between each character
-      beforeReveal: function(el) {
-        el.style.opacity = 1; // Set opacity to 1 before each character is revealed
-      }
-    });
-  }
-};
-
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const svgs = document.querySelectorAll('.svg_bump, .svg_bump2');
 
-<script type="text/javascript" src="js/navbar.js"></script>
-<script type="text/javascript" src="js/footer.js"></script>
-<script src="js/scripts.js"></script>
+    let animationRunning = false;
+    let isScrolling;
+
+    const animationDelay = 650; // Adjust this value as needed to control the animation responsiveness
+
+    function playAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'running';
+      });
+      animationRunning = true;
+    }
+
+    function pauseAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'paused';
+      });
+      animationRunning = false;
+    }
+
+    function handleScroll() {
+      // Clear the timeout to avoid multiple executions
+      clearTimeout(isScrolling);
+
+      // Set a timeout to wait for the user to stop scrolling
+      isScrolling = setTimeout(() => {
+        if (animationRunning) {
+          pauseAnimation();
+        }
+      }, animationDelay);
+
+      if (!animationRunning) {
+        playAnimation();
+      }
+    }
+
+    // Apply the event listener to the window for all SVGs
+    window.addEventListener('scroll', handleScroll);
+</script>
+  <script>
+    const lineStepper = document.getElementById('lineStepper');
+const colWidth = 100 / 6; // 6 columns, each taking 16.666...% width
+let current = 0;
+let stepperInterval; // Variable to hold the interval ID for the stepper animation
+
+function moveStepper(index) {
+    const newPosition = colWidth * index + colWidth / 2;
+    lineStepper.style.left = newPosition + '%';
+
+    // Update the background color and box shadow of the clicked image with a cool animation
+    const images = document.querySelectorAll('.img-thumbnail');
+    images[current].style.backgroundColor = '#fff'; // Reset previous image's background color
+    images[current].style.boxShadow = 'none'; // Reset previous image's box shadow
+    images[index].style.backgroundColor = '#fff59b'; // Set the new image's background color with your desired color
+    images[index].style.boxShadow = '0 10px 50px -5px rgba(46, 71, 93, 0.12)'; // Apply the specified box shadow
+
+    // Hide the heading and paragraph for the previous image
+    const imageInfos = document.querySelectorAll('.image-info');
+    imageInfos.forEach((imageInfo, i) => {
+        imageInfo.style.opacity = i === index ? '1' : '0';
+    });
+
+    current = index;
+}
+
+function startStepper() {
+    stepperInterval = setInterval(() => {
+        moveStepper((current + 1) % 6);
+    }, 2000); // Move to the next image every 2 seconds
+}
+
+function stopStepper() {
+    clearInterval(stepperInterval); // Clear the interval to stop the animation
+}
+
+// Start the animation with the first image if the screen is not below 1000px
+if (!isScreenBelow1000px()) {
+    startStepper();
+}
+
+// Add event listeners to each image to stop/start the stepper animation on click and hover
+const images = document.querySelectorAll('.img-thumbnail');
+images.forEach((image, index) => {
+    image.addEventListener('click', () => {
+        moveStepper(index);
+    });
+
+    image.addEventListener('mouseover', () => {
+        stopStepper();
+    });
+
+    image.addEventListener('mouseout', () => {
+        if (!isScreenBelow1000px()) {
+            startStepper();
+        }
+    });
+});
+
+// Function to check if the screen size is below 1000px
+function isScreenBelow1000px() {
+    return window.innerWidth < 1000;
+}
+
+// Add event listener to the window to handle responsiveness
+window.addEventListener('resize', () => {
+    if (isScreenBelow1000px()) {
+        stopStepper();
+        // Show all .image-info elements on small screens
+        const imageInfos = document.querySelectorAll('.image-info');
+        imageInfos.forEach((imageInfo) => {
+            imageInfo.style.opacity = '1';
+        });
+    } else {
+        if (!stepperInterval) {
+            // Start the animation only if it is not already running
+            startStepper();
+        }
+    }
+});
+
+
+  </script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/footer.js"></script>
+  <script src="https://kit.fontawesome.com/d45a5731a6.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="HIERACHIAL DETECTION.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="HIERACHIAL DETECTION"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10"
+       transform="translate(75,110.7868)">
+      <path
+         d="M 0,0 -41.323,-71.574 H 41.323 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+    </g>
+    <g
+       id="g14"
+       transform="translate(75,110.7868)">
+      <path
+         d="M 0,0 -41.323,-71.574 H 41.323 Z"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path16" />
+    </g>
+    <g
+       id="g18"
+       transform="translate(75,39.2132)">
+      <path
+         d="M 0,0 20.662,35.787 H -20.662 Z"
+         style="fill:#bffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path20" />
+    </g>
+    <g
+       id="g22"
+       transform="translate(75,39.2132)">
+      <path
+         d="M 0,0 20.662,35.787 H -20.662 Z"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="Language Translation.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,150 H 150 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Language Translation"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(53.3643,46.8116)">
+          <path
+             d="m 0,0 h -37.034 c -5.342,0 -9.672,4.33 -9.672,9.671 v 37.035 c 0,5.341 4.33,9.671 9.672,9.671 H 0 c 5.341,0 9.671,-4.33 9.671,-9.671 V 9.671 C 9.671,4.33 5.341,0 0,0"
+             style="fill:#bffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <g
+           id="g22"
+           transform="translate(53.3643,46.8116)">
+          <path
+             d="m 0,0 h -37.034 c -5.342,0 -9.672,4.33 -9.672,9.671 v 37.035 c 0,5.341 4.33,9.671 9.672,9.671 H 0 c 5.341,0 9.671,-4.33 9.671,-9.671 V 9.671 C 9.671,4.33 5.341,0 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path24" />
+        </g>
+        <g
+           id="g26"
+           transform="translate(45.809,89.8557)">
+          <path
+             d="m 0,0 v -3.723 h -16.708 v -10.425 h 13.916 v -3.723 H -16.708 V -28.854 H 0.605 v -3.724 H -20.756 V 0 Z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path28" />
+        </g>
+        <g
+           id="g30"
+           transform="translate(133.6699,46.8116)">
+          <path
+             d="m 0,0 h -37.034 c -5.342,0 -9.672,4.33 -9.672,9.671 v 37.035 c 0,5.341 4.33,9.671 9.672,9.671 H 0 c 5.341,0 9.671,-4.33 9.671,-9.671 V 9.671 C 9.671,4.33 5.341,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path32" />
+        </g>
+        <g
+           id="g34"
+           transform="translate(133.6699,46.8116)">
+          <path
+             d="m 0,0 h -37.034 c -5.342,0 -9.672,4.33 -9.672,9.671 v 37.035 c 0,5.341 4.33,9.671 9.672,9.671 H 0 c 5.341,0 9.671,-4.33 9.671,-9.671 V 9.671 C 9.671,4.33 5.341,0 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path36" />
+        </g>
+        <g
+           id="g38"
+           transform="translate(126.2773,89.8557)">
+          <path
+             d="m 0,0 v -3.723 h -16.196 v -10.89 h 13.404 v -3.724 h -13.404 v -14.241 h -4.049 V 0 Z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path40" />
+        </g>
+        <g
+           id="g42"
+           transform="translate(71.1827,73.4302)">
+          <path
+             d="M 0,0 4.542,-4.543 0,-9.085"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path44" />
+        </g>
+        <g
+           id="g46"
+           transform="translate(78.8173,73.7038)">
+          <path
+             d="M 0,0 -4.543,4.543 0,9.085"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path48" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

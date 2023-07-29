@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="Manufacturing.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Manufacturing"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10"
+       transform="translate(65.5421,85.3606)">
+      <path
+         d="M 0,0 V -13.354 L -12.862,-54.711 H 48.085 L 35.222,-13.354 V 0 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+    </g>
+    <g
+       id="g14"
+       transform="translate(90.4188,93.6463)">
+      <path
+         d="m 0,0 v -8.284 h -24.878 v -13.361 l -12.857,-41.349 h -16.31 l 12.623,40.587 V 0 Z"
+         style="fill:#bffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path16" />
+    </g>
+    <g
+       id="g18"
+       transform="translate(113.625,30.6528)">
+      <path
+         d="m 0,0 h -60.941 l 12.857,41.349 v 13.36 h 35.227 v -13.36 z"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path20" />
+    </g>
+    <g
+       id="g22"
+       transform="translate(90.4188,93.6463)">
+      <path
+         d="m 0,0 v -8.284 h -24.878 v -13.361 l -12.857,-41.349 h -16.31 l 12.623,40.587 V 0 Z"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" />
+    </g>
+    <g
+       id="g26"
+       transform="translate(64.7912,30.6531)">
+      <path
+         d="M 0,0 H -12.107"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path28" />
+    </g>
+    <g
+       id="g30"
+       transform="translate(69.8091,103.6565)">
+      <path
+         d="M 0,0 -4.926,9.768"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path32" />
+    </g>
+    <g
+       id="g34"
+       transform="translate(61.8952,103.6565)">
+      <path
+         d="M 0,0 -7.914,15.694"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path36" />
+    </g>
+    <g
+       id="g38"
+       transform="translate(53.9813,103.6565)">
+      <path
+         d="M 0,0 -4.926,9.768"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path40" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="Audio annotation (1).ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,150 H 150 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Audio annotation (1)"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(48.3879,58.4951)">
+          <path
+             d="m 0,0 h 5.978 c 1.693,0 3.332,-0.6 4.625,-1.693 l 18.04,-15.252 c 2.461,-2.081 6.232,-0.331 6.232,2.892 v 61.115 c 0,3.224 -3.771,4.974 -6.232,2.892 L 10.603,34.703 C 9.31,33.61 7.671,33.01 5.978,33.01 H 0 c -3.957,0 -7.164,-3.208 -7.164,-7.164 V 7.164 C -7.164,3.207 -3.957,0 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <g
+           id="g22"
+           transform="translate(48.3879,58.4951)">
+          <path
+             d="m 0,0 h 5.978 c 1.693,0 3.332,-0.6 4.625,-1.693 l 18.04,-15.252 c 2.461,-2.081 6.232,-0.331 6.232,2.892 v 61.115 c 0,3.224 -3.771,4.974 -6.232,2.892 L 10.603,34.703 C 9.31,33.61 7.671,33.01 5.978,33.01 H 0 c -3.957,0 -7.164,-3.208 -7.164,-7.164 V 7.164 C -7.164,3.207 -3.957,0 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path24" />
+        </g>
+        <g
+           id="g26"
+           transform="translate(101.7374,100.5386)">
+          <path
+             d="m 0,0 c 4.459,-7.481 7.039,-16.215 7.039,-25.539 0,-9.323 -2.58,-18.057 -7.002,-25.538"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path28" />
+        </g>
+        <g
+           id="g30"
+           transform="translate(93.114,89.096)">
+          <path
+             d="M 0,0 C 1.843,-4.349 2.838,-9.102 2.838,-14.078 2.838,-19.089 1.843,-23.843 0,-28.192"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path32" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

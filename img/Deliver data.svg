@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="Deliver data.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,150 H 150 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Deliver data"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(122.305,89.6001)">
+          <path
+             d="m 0,0 c 0,-4.6 -6.99,-8.7 -17.89,-11.35 -8.08,-1.98 -18.3,-3.15 -29.42,-3.15 -11.12,0 -21.34,1.17 -29.41,3.15 -10.9,2.65 -17.89,6.75 -17.89,11.35 0,3.71 4.53,7.08 11.99,9.65 V 3.68 c 0,-5.98 15.81,-10.82 35.31,-10.82 19.51,0 35.32,4.84 35.32,10.82 V 9.65 C -4.53,7.08 0,3.71 0,0"
+             style="fill:#bffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <g
+           id="g22"
+           transform="translate(122.305,89.6001)">
+          <path
+             d="m 0,0 c 0,-4.6 -6.99,-8.7 -17.89,-11.35 -8.08,-1.98 -18.3,-3.15 -29.42,-3.15 -11.12,0 -21.34,1.17 -29.41,3.15 -10.9,2.65 -17.89,6.75 -17.89,11.35 0,3.71 4.53,7.08 11.99,9.65 V 3.68 c 0,-5.98 15.81,-10.82 35.31,-10.82 19.51,0 35.32,4.84 35.32,10.82 V 9.65 C -4.53,7.08 0,3.71 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path24" />
+        </g>
+        <g
+           id="g26"
+           transform="translate(110.315,109.48)">
+          <path
+             d="m 0,0 c 0,-2.96 -3.88,-5.64 -10.16,-7.59 h -0.01 c -0.56,-0.18 -1.13,-0.35 -1.72,-0.51 h -0.01 c -6.24,-1.69 -14.43,-2.72 -23.42,-2.72 -8.98,0 -17.18,1.03 -23.41,2.72 h -0.01 c -0.59,0.16 -1.16,0.33 -1.72,0.51 h -0.01 c -6.28,1.95 -10.16,4.63 -10.16,7.59 0,5.98 15.81,10.83 35.31,10.83 C -15.81,10.83 0,5.98 0,0"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path28" />
+        </g>
+        <g
+           id="g30"
+           transform="translate(110.315,109.48)">
+          <path
+             d="m 0,0 c 0,-2.96 -3.88,-5.64 -10.16,-7.59 h -0.01 c -0.56,-0.18 -1.13,-0.35 -1.72,-0.51 h -0.01 c -6.24,-1.69 -14.43,-2.72 -23.42,-2.72 -8.98,0 -17.18,1.03 -23.41,2.72 h -0.01 c -0.59,0.16 -1.16,0.33 -1.72,0.51 h -0.01 c -6.28,1.95 -10.16,4.63 -10.16,7.59 0,5.98 15.81,10.83 35.31,10.83 C -15.81,10.83 0,5.98 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path32" />
+        </g>
+        <g
+           id="g34"
+           transform="translate(122.305,89.6001)">
+          <path
+             d="m 0,0 v -22.7 c 0,-4.6 -6.99,-8.7 -17.89,-11.35 h -0.01 c -8.07,-1.98 -18.3,-3.15 -29.41,-3.15 -11.11,0 -21.33,1.17 -29.4,3.15 h -0.01 c -10.9,2.65 -17.89,6.75 -17.89,11.35 V 0 c 0,-4.6 6.99,-8.7 17.89,-11.35 8.07,-1.98 18.29,-3.15 29.41,-3.15 11.12,0 21.34,1.17 29.42,3.15 C -6.99,-8.7 0,-4.6 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path36" />
+        </g>
+        <g
+           id="g38"
+           transform="translate(122.305,66.8999)">
+          <path
+             d="m 0,0 v -22.71 c 0,-8.01 -21.18,-14.5 -47.31,-14.5 -26.12,0 -47.3,6.49 -47.3,14.5 V 0 c 0,-4.6 6.99,-8.7 17.89,-11.35 h 0.01 c 8.07,-1.98 18.29,-3.15 29.4,-3.15 11.11,0 21.34,1.17 29.41,3.15 h 0.01 C -6.99,-8.7 0,-4.6 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path40" />
+        </g>
+        <g
+           id="g42"
+           transform="translate(122.305,89.6001)">
+          <path
+             d="m 0,0 v -22.7 c 0,-4.6 -6.99,-8.7 -17.89,-11.35 h -0.01 c -8.07,-1.98 -18.3,-3.15 -29.41,-3.15 -11.11,0 -21.33,1.17 -29.4,3.15 h -0.01 c -10.9,2.65 -17.89,6.75 -17.89,11.35 V 0 c 0,-4.6 6.99,-8.7 17.89,-11.35 8.07,-1.98 18.29,-3.15 29.41,-3.15 11.12,0 21.34,1.17 29.42,3.15 C -6.99,-8.7 0,-4.6 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path44" />
+        </g>
+        <g
+           id="g46"
+           transform="translate(110.315,109.48)">
+          <path
+             d="m 0,0 v -16.2 c 0,-5.98 -15.81,-10.82 -35.32,-10.82 -19.5,0 -35.31,4.84 -35.31,10.82 V 0 c 0,-2.96 3.88,-5.64 10.16,-7.59 h 0.01 c 0.56,-0.18 1.13,-0.35 1.72,-0.51 h 0.01 c 6.23,-1.69 14.43,-2.72 23.41,-2.72 8.99,0 17.18,1.03 23.42,2.72 h 0.01 c 0.59,0.16 1.16,0.33 1.72,0.51 h 0.01 C -3.88,-5.64 0,-2.96 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path48" />
+        </g>
+        <g
+           id="g50"
+           transform="translate(122.305,66.8999)">
+          <path
+             d="m 0,0 v -22.71 c 0,-8.01 -21.18,-14.5 -47.31,-14.5 -26.12,0 -47.3,6.49 -47.3,14.5 V 0 c 0,-4.6 6.99,-8.7 17.89,-11.35 h 0.01 c 8.07,-1.98 18.29,-3.15 29.4,-3.15 11.11,0 21.34,1.17 29.41,3.15 h 0.01 C -6.99,-8.7 0,-4.6 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path52" />
+        </g>
+        <g
+           id="g54"
+           transform="translate(110.315,109.48)">
+          <path
+             d="m 0,0 v -16.2 c 0,-5.98 -15.81,-10.82 -35.32,-10.82 -19.5,0 -35.31,4.84 -35.31,10.82 V 0 c 0,-2.96 3.88,-5.64 10.16,-7.59 h 0.01 c 0.56,-0.18 1.13,-0.35 1.72,-0.51 h 0.01 c 6.23,-1.69 14.43,-2.72 23.41,-2.72 8.99,0 17.18,1.03 23.42,2.72 h 0.01 c 0.59,0.16 1.16,0.33 1.72,0.51 h 0.01 C -3.88,-5.64 0,-2.96 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path56" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
