@@ -1,194 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navbar Example</title>
+  <title>Secret1.0</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="res.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
   <div class="cursor"></div>
-  <div class="dots-container black">
-    <div class="dot active"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </div>
-  <div class="fixed-section nlp">
+  <ul id="pagination">
+    <li><a href="#page1"></a></li>
+    <li><a href="#page2"></a></li>
+    <!-- <li><a href="#page3"></a></li>
+    <li><a href="#page4"></a></li>
+    <li><a href="#page5"></a></li> -->
+  </ul>
+
+  <header class="headermain header_two head_green" style="position: relative;">
     <my-navbar></my-navbar>
-    <section class="">
-      <div class="container">
-        <div class="row mb-5 row-reverse d-center">
-          <div class="col-7 d-flex flex-column justify-content-center w-full">
-            <p class="line-text">Generative AI</p>
-            <h1 class="data-title">Lorem ipsum, dolor sit amet </h1>
+    <div>
+      <div class="">
+        <section class="container secOne second_center page" id="page1">
+          <div class="row ">
+            <div class="col-md-8 d-flex justify-content-center flex-column">
+              <h3 class="line-text d-flex justify-content-start mt-lg-5">
+                Data Sourcing
+              </h3>
+              <h1 class="data-title">Fastest way to source<br>
+                data</h1>
+
+            </div>
+            <div class="col-md-4 ">
+              <div class="d-flex justify-content-center align-content-center banner_img">
+                <img src="img/Data sourcing.svg" alt="Data_labeling">
+              </div>
+            </div>
           </div>
-          <div class="col col-md-5 d-flex align-items-center">
-            <img src="img/Gen_AI_loop.svg" class="banner img-fluid" alt="">
+          <div class="svg_bump">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+              <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+                d="M0 80 C384 60 1536 60 1920 80" />
+            </svg>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+  </header>
+  <div>
+
+    <div class="second">
+      <div class="svg_bump2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+            d="M0 80 C384 60 1536 60 1920 80" />
+        </svg>
+      </div>
+      <section class="sec_two secOne Our-sourcing page" id="page2" id="Data_Engineering" style="position: relative;">
+
+        <div class="container-fluid">
+          <div class="text-center card-title">
+            <h3 class="headline">Audio Sourcing</h3>
+            <span class="border_bar"></span>
+          </div>
+          <div class="row justify-content-center flex-column-reverse flex-md-row ">
+            <div class="col col-md-7 col-xxl-5 col d-flex flex-column justify-content-center sourcing-ph">
+              <p class="ps-5 line-text px-5 text-justify">
+                Building an enterprise-grade Al model is highly dependent on the
+                amount of data that one can gather for training models. We have
+                built tools and frameworks to collect voice samples from hundreds
+                of users easily. We have access to thousands of people and
+                collected about a hundred thousand utterances for a voice-related
+                project. Reach out to us for any of your audio sourcing projects.
+              </p>
+            </div>
+            <div class="col col-md-4 col-xxl-6 d-flex justify-content-center">
+              <img src="img/Audio sourcing.svg" class="card-img-audio headline" alt="card-grid-image">
+            </div>
+          </div>
+          <div class="text-center card-title">
+            <h3 class="line-text">Image Sourcing</h3>
+            <span class="border_bar"></span>
+          </div>
+          <div class="row Image-Sourcing justify-content-around sourcing-ph flex-column flex-md-row">
+            <div class="col col-md-7 col-xxl-6 d-flex justify-content-center">
+              <img src="img/Image sourcing.svg" class="card-img-audio headline" alt="card-grid-image">
+            </div>
+            <div class="col col-md-5 col-xxl-4 col d-flex flex-column justify-content-center">
+              <p class="line-text text-justify">
+                Sourcing images can take a lot of time and hard work. But we do it
+                anyway because we understand it's probably one of the most
+                important things to train your machine learning models. Either you
+                need different container images or medical images or any other
+                images, we have photographers who can take pictures in a very
+                cost-effective mariner. Not only these images are less expensive
+                than the stock images, but they are also unique and taken for your
+                project needs.
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center card-title">
+            <h3 class="headline">Video Sourcing</h3>
+            <span class="border_bar"></span>
+          </div>
+          <div class="row justify-content-center flex-column-reverse flex-md-row">
+            <div class="col col-md-5 col-xxl-5 col d-flex flex-column justify-content-center sourcing-ph">
+              <p class="ps-3 px-3 line-text text-justify">
+                Need a stunning video clip but don't have the time or resources to
+                shoot it yourself? Brands have been crowd sourcing for years, and
+                it's possible for you to do the same thing. The requirements for
+                entry into the world of high quality video production are now more
+                accessible and affordable than ever; it's possible to get high
+                quality video from a crowd sourced effort. We have the means and
+                access to resources for your next video sourcing projects.
+              </p>
+            </div>
+            <div class="col col-md-5  col-xxl-6 d-flex justify-content-center">
+              <img src="img/Video Annotation.svg" class="card-img-audio headline" alt="card-grid-image">
+            </div>
+          </div>
+          <div class="text-center card-title">
+            <h3 class="headline">Document Sourcing</h3>
+            <span class="border_bar"></span>
+          </div>
+          <div class="row d-flex justify-content-center flex-column flex-md-row">
+            <div class="col col-md-6 col-xxl-6 d-flex mx-4 justify-content-center">
+              <img src="img/Document sourcing.svg" class="card-img-audio headline" alt="card-grid-image">
+            </div>
+            <div class="col col-md-5 col-xxl-5 col d-flex flex-column justify-content-center sourcing-ph">
+              <p class="headline text-justify">
+                The processing of scanned documents calls for automatic
+                recognition of the text by OCR (Optical Character Recognition)
+                computer programs, followed by human validation and correction.
+                Crowd sourcing of these essential manual tasks is a good option.
+                Either you need human validation or you need documents that needs
+                to be created, we have access to resources through out the world
+                who can assist you with this task. We have the experience of
+                collecting documents in different languages as well.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="svg_bump">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+            <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+              d="M0 80 C384 60 1536 60 1920 80" />
+          </svg>
+        </div>
+      </section>
+    </div>
   </div>
-
-  <section class="animated-border">
-    <div class="container">
-      <div class="d-flex flex-column justify-content-center">
-           <p class="text-center why pb-5">Why?</p>
-           <p class="text-center nlp_txt pt-5">We believe commerce should be a major driver<br>of progress.</p>
-           <p class="text-center nlp_p pt-3">When performed right, it has tremendous power to bring people together, allow collaboration on<br>a massive scale and empower merchants and consumers.</p>
-      </div>
-      <div class="d-flex flex-column justify-content-center nlpWhite">
-        <p class="text-center why  pt-5">Commerce is adopting new standards</p>
-        <p class="text-center nlp_p pt-3">Our mission is to accelerate the best ones</p>
-   </div>
-    </div>
+  <section class="animated-border4">
+    <my-footer></my-footer>
   </section>
 
-  <section id="animated-border3" class="animated-border3 section-black">
-    <div class="container-fluid">
-      <div class="d-flex flex-column justify-content-center">
-        <p class="text-center nlp_txt pt-5">We invest in commerce new<br>best practices</p>
-        <p class="text-center nlp_p pt-3">From enabling technologies to new commerce models and<br>everything in between</p>
-   </div>
-
-  <div class="container pt-5">
-    <div class="block mt-5">
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-    </div>
-    <div class="block">
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box mt-5 One">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-      <div class="box Two">
-        <img class="img-fluid card-img " src="img/Gen_AI_loop.svg" alt="">
-        <p class="text-center">Lorem ipsum </p>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <script src="https://unpkg.com/scrollreveal"></script>
   <script>
     (function scrollReveal() {
-    window.sr = ScrollReveal();
-    
-    sr.reveal('.box_one,', {
-      delay: 400,
-      duration   : 200,
-      distance   : '70px',
-      easing     : 'ease-out',
-      origin     : 'bottom',
-      reset      : false,
-      scale      : 1,
-      viewFactor : 0,
-      afterReveal  : revealChildren,
-    }, 150);
-    
-      var revealChildren = sr.reveal('.why', {
-        delay: 600,
-      duration   : 400,
-      scale      : 1,
-      distance   : '50px',
-      origin     : 'bottom',
-      reset      : false,
-      easing     : 'ease-out',
-      viewFactor : 1,
-    }, 75);
-    var revealChildren = sr.reveal('.nlp_txt', {
-        delay: 600,
-      duration   : 400,
-      scale      : 1,
-      distance   : '50px',
-      origin     : 'bottom',
-      reset      : false,
-      easing     : 'ease-out',
-      viewFactor : 1,
-    }, 75);
-    var revealChildren = sr.reveal('.nlp_p', {
-        delay: 800,
-      duration   : 400,
-      scale      : 1,
-      distance   : '50px',
-      origin     : 'bottom',
-      reset      : false,
-      easing     : 'ease-out',
-      viewFactor : 1,
-    }, 75);
-    var revealChildren = sr.reveal('.One', {
- 
-      duration   : 400,
-      scale      : 1,
-      distance   : '50px',
-      origin     : 'top',
-      reset      : true,
-      easing     : 'ease-out',
-      viewFactor : 1,
-      opacity    : 1, // Set the desired opacity value
-    }, 75);
-    var revealChildren = sr.reveal('.Two', {
-    
-      duration   : 400,
-      scale      : 1,
-      distance   : '50px',
-      origin     : 'bottom',
-      reset      : true,
-      easing     : 'ease-out',
-      viewFactor : 1,
-      opacity    : 1, // Set the desired opacity value
-    }, 75);
+      window.sr = ScrollReveal();
 
-  })();
-  
+      sr.reveal('.box_one, .sliderMain, .para_head, .data-title', {
+        delay: 400,
+        duration: 700,
+        distance: '50px',
+        easing: 'ease-out',
+        origin: 'bottom',
+        reset: false,
+        scale: 1,
+        viewFactor: 0,
+        afterReveal: revealChildren,
+      }, 150);
+
+      var revealChildren = sr.reveal('.box-text,.data-title, .box_one,  , .line-text2, .data-title2, .button-con, .animation-element, ', {
+        delay: 400,
+        duration: 1000,
+        scale: 1,
+        distance: '50px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildrenTwo = sr.reveal(' .headline3,.line-text ,.headline', {
+        delay: 700,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildren = sr.reveal('.One', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'top',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+      var revealChildren = sr.reveal('.Two', {
+
+        duration: 400,
+        scale: 1,
+        distance: '30px',
+        origin: 'bottom',
+        reset: true,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+    })();
+
   </script>
-<script>
-  ScrollReveal().reveal('.box');
-</script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sliderMain').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: $('.slider-controls .slick-prev'),
+        nextArrow: $('.slider-controls .slick-next'),
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
 
-<script type="text/javascript" src="js/navbar.js"></script>
-<script src="js/scripts.js"></script>
+  </script>
+  <script>
+    const svgs = document.querySelectorAll('.svg_bump, .svg_bump2');
+
+    let animationRunning = false;
+    let isScrolling;
+
+    const animationDelay = 650; // Adjust this value as needed to control the animation responsiveness
+
+    function playAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'running';
+      });
+      animationRunning = true;
+    }
+
+    function pauseAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'paused';
+      });
+      animationRunning = false;
+    }
+
+    function handleScroll() {
+      // Clear the timeout to avoid multiple executions
+      clearTimeout(isScrolling);
+
+      // Set a timeout to wait for the user to stop scrolling
+      isScrolling = setTimeout(() => {
+        if (animationRunning) {
+          pauseAnimation();
+        }
+      }, animationDelay);
+
+      if (!animationRunning) {
+        playAnimation();
+      }
+    }
+
+    // Apply the event listener to the window for all SVGs
+    window.addEventListener('scroll', handleScroll);
+
+
+
+  </script>
+  <script>
+    $(function () {
+      $('.steps a').click(function () {
+        var tabId = $(this).attr('data-tab');
+
+        $('.steps a').removeClass('active');
+        $('.Tabcondent').removeClass('active');
+
+        $(this).addClass('active');
+        $('#' + tabId).addClass('active');
+      });
+
+    });
+  </script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/footer.js"></script>
+  <script src="https://kit.fontawesome.com/d45a5731a6.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
 </body>
+
 </html>

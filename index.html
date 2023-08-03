@@ -16,19 +16,20 @@
 
 <body>
   <div class="cursor"></div>
-  <div class="dots-container black">
-    <div class="dot active"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </div>
+  <ul id="pagination">
+    <li><a href="#page1"></a></li>
+    <li><a href="#page2"></a></li>
+    <li><a href="#page3"></a></li>
+    <li><a href="#page4"></a></li>
+    <li><a href="#page5"></a></li>
+  </ul>
 
-  <header class="headermain"  style="position: relative;">
+
+  <header class="headermain section">
     <my-navbar></my-navbar>
     <div>
       <div class="">
-        <section class="container secOne">
+        <section class="container second_center secOne page" id="page1">
           <div class="row ">
             <div class="col-md-8 d-flex justify-content-center flex-column">
 
@@ -38,7 +39,7 @@
                 Data Sourcing, Human-in-the-Loop & Content Moderation.
               </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 banner_svg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1776 1776" width="1776" height="1776"
                 preserveAspectRatio="xMidYMid meet"
                 style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
@@ -120,137 +121,80 @@
 
 
   </header>
-  <section class="sec_two secOne" id="Data_Engineering" style="position: relative;">
-    <div class="col-10 container">
-      <h3 class="para_head">When your ML model needs high quality labeled data
-        Bank on Us</p>
-    </div>
-    <div class="container pt-5">
-      <div class="row pt-5">
-        <div class="col-md-4 ">
-          <div>
-            <img src="img/DL.png" class="img-fluid headline" alt="">
-          </div>
-          <h2 class="txt-cen text-start headline">Data Labeling</h2>
-          <p class="line-text d-flex justify-content-start mt-lg-3">
-            We provide Data Labeling Services for a wide
-            variety of industries. Whether it is a simple
-            classification task or a complex Lidar object
-            detection, our well-trained team is ready to
-            take any kind of Data Annotation work.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <div>
-            <img src="img/DS.png" class="img-fluid headline" alt="">
-          </div>
-          <h2 class="txt-cen text-start headline">Data Sourcing</h2>
-          <p class="line-text d-flex justify-content-start mt-lg-3">
-            Talk to us for your next Data Sourcing project.
-            Briefly describe your goals, use cases, and data
-            requirement, and we should be able to procure
-            the required data for your project. We have
-            experience in collecting millions of Audio,
-            Video, Text and image data.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <div>
-            <img src="img/CC.png" class="img-fluid headline" alt="">
-          </div>
-          <h2 class="txt-cen text-start headline">Content Moderation</h2>
-          <p class="line-text d-flex justify-content-start mt-lg-3">
-            We provide various content moderation
-            services to provide a safe environment for both
-            users and brands. Our trained moderators can
-            assist in identifying the toxic content, act as
-            human-in-the-loop to improve your ML models
-            and provide Service levels to match your needs
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="container pt-5">
-  <div class="block mt-5">
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/One.png" alt="">
- 
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Two.png" alt="">
-
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Three.png" alt="">
-
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Four.png" alt="">
-  
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Five.png" alt="">
-
-    </div>
-  </div>
-  <div class="block mt-3">
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Six.png" alt="">
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Seven.png" alt="">
-
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Eight.png" alt="">
-  
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Nine.png" alt="">
-
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Ten.png" alt="">
-
-    </div>
-  </div>
-  <div class="block mt-3">
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Eleven.png" alt="">
-  
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Twele.png" alt="">
- 
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Thirteen.png" alt="">
-   
-    </div>
-    <div class="box Two">
-      <img class="img-fluid card-img " src="img/Fourteen.png" alt="">
-  
-    </div>
-    <div class="box One">
-      <img class="img-fluid card-img " src="img/Fifteen.png" alt="">
-
-    </div>
-  </div>
-  </div> -->
-    <div class="svg_bump">
+  <div class="second ">
+    <div class="svg_bump2">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
-        <path class="animated_path" fill="#1a1a1a" stroke="#000000" stroke-width="2"
+        <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
           d="M0 80 C384 60 1536 60 1920 80" />
       </svg>
     </div>
-  </section>
+    <section class="sec_two secOne section page" id="page2" style="position: relative;">
 
-  <section id="animated-border3" class="animated-border3 section-black" style="position: relative;">
+      <div class="col-10 container">
+        <h3 class="para_head">When your ML model needs high quality labeled data
+          Bank on Us</p>
+      </div>
+      <div class="container pt-5">
+        <div class="row pt-5">
+          <div class="col-md-4 ">
+            <div>
+              <img src="img/DL.png" class="img-fluid headline" alt="">
+            </div>
+            <h2 class="txt-cen text-start headline">Data Labeling</h2>
+            <p class="line-text d-flex justify-content-start mt-lg-3">
+              We provide Data Labeling Services for a wide
+              variety of industries. Whether it is a simple
+              classification task or a complex Lidar object
+              detection, our well-trained team is ready to
+              take any kind of Data Annotation work.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img src="img/DS.png" class="img-fluid headline" alt="">
+            </div>
+            <h2 class="txt-cen text-start headline">Data Sourcing</h2>
+            <p class="line-text d-flex justify-content-start mt-lg-3">
+              Talk to us for your next Data Sourcing project.
+              Briefly describe your goals, use cases, and data
+              requirement, and we should be able to procure
+              the required data for your project. We have
+              experience in collecting millions of Audio,
+              Video, Text and image data.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img src="img/CC.png" class="img-fluid headline" alt="">
+            </div>
+            <h2 class="txt-cen text-start headline">Content Moderation</h2>
+            <p class="line-text d-flex justify-content-start mt-lg-3">
+              We provide various content moderation
+              services to provide a safe environment for both
+              users and brands. Our trained moderators can
+              assist in identifying the toxic content, act as
+              human-in-the-loop to improve your ML models
+              and provide Service levels to match your needs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="svg_bump">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path class="animated_path" fill="#1a1a1a" stroke="#000000" stroke-width="2"
+            d="M0 80 C384 60 1536 60 1920 80" />
+        </svg>
+      </div>
+    </section>
+  </div>
+  <section id="animated-border3" class="animated-border3 section-black page" id="page3" style="position: relative;">
 
     <div class="container-fluid">
       <div class="">
         <div class="col-lg-12 d-flex flex-column justify-content-center">
-          <h5 class="text_cen">A Few of Our Customers</h5>
+          <h2 class="txt-cen2 text-center headline mb-5">Few of our Customers
+
+          </h2>
         </div>
       </div>
 
@@ -331,7 +275,6 @@
               </div>
             </div>
 
-            <!-- Img Code End -->
           </div>
         </div>
       </div>
@@ -412,9 +355,12 @@
             d="M0 80 C384 60 1536 60 1920 80" />
         </svg>
       </div>
+    </div>
   </section>
-  <section class="sec_three secOne" id="Data_Engineering" style="position: relative;">
-    <p class="text-center headline3">Our Custom Tools</p>
+  <section class="sec_three secOne page" id="page4" style="position: relative;">
+    <h2 class="txt-cen2 text-center headline mb-5">Our Custom Tool
+
+    </h2>
     <div class="container-fluid">
       <div class="steps d-flex justify-content-center flex-wrap gap-2 flex-md-row flex-column">
         <a href="javascript:void(0);" data-tab="one" class="active"><img src="img/Video Annotation.svg"
@@ -494,7 +440,7 @@
       </svg>
     </div>
   </section>
-  <section class="animated-border4">
+  <section class="animated-border4 page" id="page5">
     <div class="container">
       <div class="col-lg-12 d-flex flex-column justify-content-center">
         <div class="text-center">
@@ -727,47 +673,7 @@
     })();
 
   </script>
-  <script>
-    // Import the ScrollReveal library from a CDN
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/scrollreveal';
-    document.head.appendChild(script);
 
-    script.onload = function () {
-      const sr = ScrollReveal();
-      // Split the text into individual characters
-      const textElement = document.querySelector('.text_centtwo');
-      if (textElement) {
-        const textContent = textElement.textContent;
-        textElement.textContent = '';
-
-        for (let i = 0; i < textContent.length; i++) {
-          const character = textContent.charAt(i);
-          const span = document.createElement('span');
-          span.textContent = character;
-          span.style.opacity = 0; // Set initial opacity to 0
-          textElement.appendChild(span);
-        }
-
-        // Apply the reveal animation to each character individually
-        const revealCharacters = sr.reveal('.text_centtwo span', {
-          delay: 1500,
-          duration: 1000,
-          scale: 1,
-          distance: '70px',
-          origin: 'bottom',
-          reset: false,
-          easing: 'ease-out',
-          viewFactor: 0.5,
-          interval: 25, // Delay between each character
-          beforeReveal: function (el) {
-            el.style.opacity = 1; // Set opacity to 1 before each character is revealed
-          }
-        });
-      }
-    };
-
-  </script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -856,6 +762,7 @@
 
     });
   </script>
+  <script></script>
   <script type="text/javascript" src="js/navbar.js"></script>
   <script type="text/javascript" src="js/footer.js"></script>
   <script src="https://kit.fontawesome.com/d45a5731a6.js" crossorigin="anonymous"></script>

@@ -1,353 +1,535 @@
     /* Media query for small devices (e.g., phones) */
-    
+
     @media (max-width: 576px) {
-        .data-title {
-          font-size: 24px;
-        }
-  
-        .line-text {
-          font-size: 16px;
-        }
-
-              .block{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-              }
-              .One{
-margin-top: 30px !important;
-
-              }
-              .Two{
-                margin-top: 30px !important;
-                margin-bottom: 30px !important;
-                              }
-      }
-  
-      /* Media query for medium devices (e.g., tablets) */
-      @media (min-width: 577px) and (max-width: 991px) {
-        .data-title {
-          font-size: 28px;
-        }
-  
-        .line-text {
-          font-size: 17px;
-        }
-          .One{
-            margin-top: 30px !important;
-            
-                          }
-                          .Two{
-                            margin-top: 30px !important;
-                            margin-bottom: 30px !important;
-                                          }
-
-      }
-  
-      /* Media query for large devices (e.g., desktops) */
-
-      .secOne{
-       padding-top: 70px;
-       padding-bottom: 130px;
-      }
-      .secOne h2{
-        font-size: 37px;
-      }
-      .secOne p{
-        font-size: 19px;
+      .data-title {
+        font-size: 24px;
       }
 
-  /* .One{
-    border: 1px solid rgb(180, 171, 171);
-  }
-  .Two{
-    border: 1px solid rgb(180, 171, 171);
-  } */
+      .line-text {
+        font-size: 16px;
+      }
 
-  /* slick slider */
+      .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
-  .animated_path {
-    animation: bumpAnimation 1s cubic-bezier(0.68, 0.55, 0.265, 1.55) infinite;
+      .One {
+        margin-top: 30px !important;
 
-  }
-  
+      }
 
+      .Two {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+      }
 
-  @keyframes bumpAnimation {
-    0% {
-      d: path("M0 160 C384 60 1536 60 1920 160");
+      #pagination {
+        display: none;
+      }
+
     }
-    25% {
-      d: path("M0 160 C384 40 1536 40 1920 160");
+
+    /* Media query for medium devices (e.g., tablets) */
+    @media (min-width: 577px) and (max-width: 991px) {
+      .data-title {
+        font-size: 28px;
+      }
+
+      .line-text {
+        font-size: 17px;
+      }
+
+      .One {
+        margin-top: 30px !important;
+
+      }
+
+      .Two {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+      }
+
     }
-    50% {
-      d: path("M0 160 C384 100 1536 100 1920 160");
+
+    /* Media query for large devices (e.g., desktops) */
+
+    .secOne {
+      padding-bottom: 220px;
     }
-    75% {
-      d: path("M0 160 C384 60 1536 60 1920 160");
+
+    .secOne h2 {
+      font-size: 37px;
     }
-    100% {
-      d: path("M0 160 C384 60 1536 60 1920 160");
+
+    .secOne p {
+      font-size: 19px;
     }
-  }
 
-  .sliderMain h3{
-    border: 1px solid rgb(180, 177, 177);
-    background-color: #fffdf6;
-    font-family: GalanoGrotesqueAlt-Medium,sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 2rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  .slide_card {
+    .animated_path {
+      animation: bumpAnimation 1s cubic-bezier(0.68, 0.55, 0.265, 1.55) infinite;
 
-  cursor: pointer;
-    background-color: #ddffc2;
-    /* box-shadow: 0 10px 50px -5px rgba(46, 71, 93, 0.12) !important; */
-
-  }
-.sliderMain a{
-  margin-top: 1rem;
-  font-family: GalanoGrotesque-Medium,sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  color: black;
-}
-
-.slide_hov:hover a{
-text-decoration:underline;
-}
-.slide_hov:hover{
-
-  -webkit-transform: translateY(-32px) ;
-  -webkit-transition: .5s cubic-bezier(1,-1.34,.36,1) ;
-  transition: .5s ease-in-out;
-}
-.slide_hov{
-  cursor: pointer;
-  -webkit-transform: translateY(0px) ;
-  transition: .5s;
-}
-.slide_hov .learn_more{
-  text-decoration: none !important;
-  font-family: GalanoGrotesque-SemiBold,sans-serif;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  overflow: hidden;
-}
-.headline3{
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-family: GalanoGrotesque-SemiBold,sans-serif;
-  font-weight: 500;
-  font-size: 1.555rem;
-  line-height: 1.5rem;
-
-}
-
-.steps a{  
-  padding-right: 10px;
-  display:block;
-  background-color:#fff59b;
-  color:#1a1a1a;
-  font-size:13px;
-  text-align:center;
-  border-right:1px solid #672114;
-  border-radius: 5px;
-}
-.steps a:last-child{
-  border:none;
-}
-.tabContainer{
-  width:100%;
-  height: auto;
-  margin:0 auto;
-  overflow:hidden;
-  text-align:center;
-  position:relative;
-  }
-.Tabcondent{
-  position:absolute;
-  width:100%;
-  height:100%;
-  color:#fff;
-  text-align:center;
-  line-height:150px;
-  opacity:0;
-  border-radius:32px;left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  transition:all ease-in-out 0.3s;
-  /* display:none; */
-  
-  
-  }
-  .steps a.active{
-  background-color:#bffeff;
-}
-.Tabcondent.active{
-  width:100%;
-  height:100%; 
-  opacity:1;
-  border-radius:0px;
-  transition:all ease-in-out 0.6s;
-  margin:0 auto;
-  
- /* display:block */
-}
-.Tabcondent video{
-
-  margin-top: 50px;
-    width: 980px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fffdf6;
-}
-.steps img{
-  width: 75px;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.sec_three{
-    width: 100%;
-    background-color: #fffdf6;
-    padding: 8.5rem 1rem !important;
-}
-.banner_img img{
-  width: 415px;
-}
-.header_two{
-  background-color: #fff59b !important;
-}
-
-.box {
-  padding: 5px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  border: 1px solid #bffeff;
-  /* padding: 10px; */
-  width: 260px !important;
-  position: relative;
-  overflow: hidden;
-  transition: .5s !important; 
-  box-shadow: 0 10px 50px -5px rgba(46, 71, 93, 0.12) !important;
-}
-
-.text-center {
-  cursor: pointer;
-}
-
- .hover-content {
-font-size: 19px !important;
-font-weight: 500 !important;
-font-family: GalanoGrotesqueAlt-Medium,sans-serif;
-} 
-
-/* Show the hover content when hovering over the parent .box element */
-/* .box:hover .hover-content {
-  display: block;
-  
-    background-color: #bffeff;
-  bottom: -45px;
-transition: 1s;
-} */
-/* .box:hover{
-  height: 380px !important;
-  transition: 1s !important; 
-
-} */
-.box p{
-  font-weight: bold;
-}
-.line-stepper-container {
-            position: relative;
-            height: 2px;
-            background-color: #1a1a1a; /* Change this to your desired line color */
-        }
-
-        .line-stepper {
-            position: absolute;
-            top: -5px;
-            left: 0;
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 2px solid #1a1a1a;
-            background-color: #fff59b; /* Change this to your desired circle color */
-            transition: left 1s ease-in-out;
-        }
-/* Add this style to apply the cool animation to the image background color change */
-.img-thumbnail {
-  transition: background-color 0.5s ease-in-out; /* Change the timing to adjust the animation */
-  box-shadow: none; /* Reset the box shadow for all images */
-  object-fit: cover;
-}
-
-/* Add this style to align the image info (heading and paragraph) under the image */
-.image-info {
-  text-align: center;
-
-  /* Add transition for opacity with 1-second duration */
-  transition: opacity 1s ease-in-out;
-  /* Set the initial opacity to 0 to hide .image-info */
-  opacity: 0;
-}
-.process_one{
-  margin-top: 30px;
-}
-
-.process_three{
-  margin-top: 20px;
-}
-.our_process h3{
-  margin-top: 30px;
-  font-size: 19px;
-font-weight: 600;
-text-align: start;
-}
-.process_list{
-  font-size: 15px;
-  text-align: start;
-  list-style: none;
-}
-.sec_green{
-  background-color: #ddffc2;
-}
-
-/* Styles for small screen sizes (screen width below 1000px) */
-@media screen and (max-width: 999px) {
+    }
 
 
-  .line-stepper-container {
-    /* Hide the line stepper container on small screens */
-    display: none !important;
-  }
+
+    @keyframes bumpAnimation {
+      0% {
+        d: path("M0 160 C384 60 1536 60 1920 160");
+      }
+
+      25% {
+        d: path("M0 160 C384 40 1536 40 1920 160");
+      }
+
+      50% {
+        d: path("M0 160 C384 100 1536 100 1920 160");
+      }
+
+      75% {
+        d: path("M0 160 C384 60 1536 60 1920 160");
+      }
+
+      100% {
+        d: path("M0 160 C384 60 1536 60 1920 160");
+      }
+    }
+
+    .sliderMain h3 {
+      border: 1px solid rgb(180, 177, 177);
+      background-color: #fffdf6;
+      font-family: GalanoGrotesqueAlt-Medium, sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .slide_card {
+
+      cursor: pointer;
+      background-color: #ddffc2;
+      /* box-shadow: 0 10px 50px -5px rgba(46, 71, 93, 0.12) !important; */
+
+    }
+
+    .sliderMain a {
+      margin-top: 1rem;
+      font-family: GalanoGrotesque-Medium, sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+      color: black;
+    }
+
+    .slide_hov:hover a {
+      text-decoration: underline;
+    }
+
+    .slide_hov:hover {
+
+      -webkit-transform: translateY(-32px);
+      -webkit-transition: .5s cubic-bezier(1, -1.34, .36, 1);
+      transition: .5s ease-in-out;
+    }
+
+    .slide_hov {
+      cursor: pointer;
+      -webkit-transform: translateY(0px);
+      transition: .5s;
+    }
+
+    .slide_hov .learn_more {
+      text-decoration: none !important;
+      font-family: GalanoGrotesque-SemiBold, sans-serif;
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      overflow: hidden;
+    }
+
+    .headline3 {
+      margin-top: 10px;
+      margin-bottom: 50px;
+      font-family: GalanoGrotesque-SemiBold, sans-serif;
+      font-weight: 500;
+      font-size: 1.555rem;
+      line-height: 1.5rem;
+
+    }
+
+    .steps a {
+      padding-right: 10px;
+      display: block;
+      background-color: #fff59b;
+      color: #1a1a1a;
+      font-size: 13px;
+      text-align: center;
+      border-right: 1px solid #672114;
+      border-radius: 5px;
+    }
+
+    .steps a:last-child {
+      border: none;
+    }
+
+    .tabContainer {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+    }
+
+    .Tabcondent {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 150px;
+      opacity: 0;
+      border-radius: 32px;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      transition: all ease-in-out 0.3s;
+      /* display:none; */
 
 
-}
-/* Styles for small screen sizes (screen width below 1000px) */
-@media screen and (max-width: 1400px) {
-  .process_three{
-    margin-top: 30px;
-  }
+    }
+
+    .steps a.active {
+      background-color: #bffeff;
+    }
+
+    .Tabcondent.active {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      border-radius: 0px;
+      transition: all ease-in-out 0.6s;
+      margin: 0 auto;
+
+      /* display:block */
+    }
+
+    .Tabcondent video {
+
+      margin-top: 50px;
+      width: 980px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fffdf6;
+    }
+
+    .steps img {
+      width: 75px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .sec_three {
+      width: 100%;
+      background-color: #fffdf6;
+      padding: 8.5rem 1rem !important;
+    }
+
+    .banner_img img {
+      width: 415px;
+    }
+
+    .header_two {
+      background-color: #fff59b !important;
+    }
+
+    .box {
+      padding: 5px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      border: 1px solid #bffeff;
+      /* padding: 10px; */
+      width: 260px !important;
+      position: relative;
+      overflow: hidden;
+      transition: .5s !important;
+      box-shadow: 0 10px 50px -5px rgba(46, 71, 93, 0.12) !important;
+    }
+
+    .text-center {
+      cursor: pointer;
+    }
+
+    .hover-content {
+      font-size: 19px !important;
+      font-weight: 500 !important;
+      font-family: GalanoGrotesqueAlt-Medium, sans-serif;
+    }
+
+    .box p {
+      font-weight: bold;
+    }
+
+    .line-stepper-container {
+      position: relative;
+      height: 2px;
+      background-color: #1a1a1a;
+      /* Change this to your desired line color */
+    }
+
+    .line-stepper {
+      position: absolute;
+      top: -5px;
+      left: 0;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #1a1a1a;
+      background-color: #fff59b;
+      /* Change this to your desired circle color */
+      transition: left 1s ease-in-out;
+    }
+
+    /* Add this style to apply the cool animation to the image background color change */
+    .img-thumbnail {
+      transition: background-color 0.5s ease-in-out;
+      /* Change the timing to adjust the animation */
+      box-shadow: none;
+      /* Reset the box shadow for all images */
+      object-fit: cover;
+    }
+
+    /* Add this style to align the image info (heading and paragraph) under the image */
+    .image-info {
+      text-align: center;
+
+      /* Add transition for opacity with 1-second duration */
+      transition: opacity 1s ease-in-out;
+      /* Set the initial opacity to 0 to hide .image-info */
+      opacity: 0;
+    }
+
+    .process_one {
+      margin-top: 30px;
+    }
+
+    .process_three {
+      margin-top: 20px;
+    }
+
+    .our_process h3 {
+      margin-top: 30px;
+      font-size: 19px;
+      font-weight: 600;
+      text-align: start;
+    }
+
+    .process_list {
+      font-size: 15px;
+      text-align: start;
+      list-style: none;
+    }
+
+    .sec_green {
+      background-color: #ddffc2;
+    }
+
+    /* Styles for small screen sizes (screen width below 1000px) */
+    @media screen and (max-width: 999px) {
 
 
-}
+      .line-stepper-container {
+        /* Hide the line stepper container on small screens */
+        display: none !important;
+      }
+
+
+    }
+
+    /* Styles for small screen sizes (screen width below 1000px) */
+    @media screen and (max-width: 1400px) {
+      .process_three {
+        margin-top: 30px;
+      }
+
+
+    }
+
+    .audio_source img {
+      width: 500px;
+    }
+
+    .card-img-audio {
+      width: 100%;
+      height: auto;
+      max-width: 40rem;
+    }
+
+    .our_process_head {
+      font-size: 31px !important;
+      font-weight: 600 !important;
+      font-family: GalanoGrotesqueAlt-Medium, sans-serif;
+    }
+
+    .head_green {
+      background-color: #ddffc2 !important;
+    }
+
+    .header_pink {
+      background-color: #ffdeac !important;
+    }
+
+    .sec_yellow {
+      background-color: #fff59b !important;
+    }
+
+    .svg_bump2 {
+      display: block !important;
+    }
+
+    .second {
+      position: relative;
+    }
+
+    .second_center {
+      display: flex !important;
+      justify-content: center !important;
+      /* Center horizontally */
+      align-items: center !important;
+      /* Center vertically */
+      height: 100vh !important;
+      /* Make the section fill the viewport height */
+    }
+
+    .card-img-audio {
+      width: 400px;
+    }
+
+    /* Variable Definitions */
+    :root {
+      --base-color: #334242;
+      --degrees: 5deg;
+    }
+
+    /* General Styles */
+    .main section {
+      margin: 0;
+      height: 100vh;
+    }
+
+    .main section:nth-child(1) {
+      background-color: lighten(var(--base-color), calc(var(--degrees) * 1));
+    }
+
+    .main section:nth-child(2) {
+      background-color: lighten(var(--base-color), calc(var(--degrees) * 2));
+    }
+
+    .main section:nth-child(3) {
+      background-color: lighten(var(--base-color), calc(var(--degrees) * 3));
+    }
+
+    .main section:nth-child(4) {
+      background-color: lighten(var(--base-color), calc(var(--degrees) * 4));
+    }
+
+    .main section:nth-child(5) {
+      background-color: lighten(var(--base-color), calc(var(--degrees) * 5));
+    }
+
+    .main section.section-black {
+      background-color: #000;
+      /* Set the background color of sections with class "section-black" to black */
+    }
+
+    .main h1 {
+      font-size: 38px;
+      color: #fff;
+      margin: 0;
+      padding: 50px 0 20px;
+      text-align: center;
+    }
+
+    #pagination {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 30px;
+      list-style: none;
+      z-index: 1000;
+    }
+
+    #pagination li {
+      position: relative;
+      margin: 20px 0;
+      background: #fff;
+      border: 1px solid #1a1a1a;
+      border-radius: 100%;
+      width: 9px;
+      height: 9px;
+      transition: all .2s ease;
+    }
+
+    #pagination li:hover {
+      transform: scale(1.5);
+    }
+
+    #pagination a {
+      position: absolute;
+      text-decoration: none;
+      left: 0;
+      top: 0;
+      color: inherit;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Additional Styles for Different Pages */
+    body.page-1 #pagination li:nth-of-type(1),
+    body.page-2 #pagination li:nth-of-type(2),
+    body.page-3 #pagination li:nth-of-type(3),
+    body.page-4 #pagination li:nth-of-type(4),
+    body.page-5 #pagination li:nth-of-type(5) {
+      transform: scale(2);
+      background-color: yellow;
+    }
+
+    /* Change background color of pagination items to white when touching a "section-black" */
+    body.page-1 .section-black~#pagination li:nth-of-type(1),
+    body.page-2 .section-black~#pagination li:nth-of-type(2),
+    body.page-3 .section-black~#pagination li:nth-of-type(3),
+    body.page-4 .section-black~#pagination li:nth-of-type(4),
+    body.page-5 .section-black~#pagination li:nth-of-type(5) {
+      background-color: #fff;
+    }
+
+    #pagination li a.active {
+      background-color: yellow;
+      /* Set the background color for the active state */
+    }
+    /* .banner_svg{
+      transform: translate(659px, -141px);
+      width: 118%;
+      float: right;
+      rotate: revert;
+      overflow: hidden;
+    } */

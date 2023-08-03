@@ -1,63 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const dots = document.querySelectorAll('.dot');
-  const sections = document.querySelectorAll('section');
-  const dotsContainer = document.querySelector('.dots-container');
 
-  function setActiveDot(index) {
-    dots.forEach((dot, i) => {
-      if (i === index) {
-        dot.classList.add('active');
-      } else {
-        dot.classList.remove('active');
-      }
-    });
-  }
-
-  const observerOptions = {
-    rootMargin: '0px',
-    threshold: 0.5
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const index = Array.from(sections).indexOf(entry.target);
-        setActiveDot(index);
-
-        // Add or remove the black class based on the section background color
-        if (entry.target.classList.contains('section-black')) {
-          dotsContainer.classList.add('black');
-        } else {
-          dotsContainer.classList.remove('black');
-        }
-
-        // Add or remove the section-white class for the third section
-        if (index === 2) {
-          entry.target.classList.add('section-white');
-        } else {
-          entry.target.classList.remove('section-white');
-        }
-      }
-    });
-  }, observerOptions);
-
-  sections.forEach((section) => {
-    observer.observe(section);
-  });
-
-
+  function pagination() {
+    var offset = $(document).scrollTop();
+    var windowHeight = $(window).height();
+    var $body = $('body');
+    var padding = .75;
+    var pages = Object.keys($('.page')).filter((section) => Number(section) + 1).map(section => Number(section) + 1)
   
-
-  function isElementInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-
+    pages.map((page) => {
+      if (offset > (windowHeight * (page - 2 + padding))) {
+         $body.removeClass().addClass("page-" + page);
+      }
+    });
+  };
+  
+  pagination();
+  
+  $(document).on('scroll', pagination);
+  
+  $(document).on('click', 'a[href^="#"]', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+  });
+  
+  $(document).ready(function() {
+    // When a pagination link is clicked
+    $("#pagination li a").click(function() {
+      // Remove the 'active' class from all links
+      $("#pagination li a").removeClass("active");
+      
+      // Add the 'active' class to the clicked link
+      $(this).addClass("active");
+    });
+  });
 
 
   // letter animation
@@ -112,8 +89,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
-
-
-
-// carosel

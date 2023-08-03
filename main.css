@@ -1,9 +1,39 @@
+
+
+
+@font-face {
+  font-family: 'GalanoGrotesque-SemiBold';
+  src: url('galano-grotesque-font/GalanoGrotesque-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GalanoGrotesque-Medium';
+  src: url('galano-grotesque-font/GalanoGrotesque-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalanoGrotesqueAlt-Medium';
+  src: url('galano-grotesque-font/GalanoGrotesqueAlt-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GalanoGrotesqueAlt-Regular';
+  src: url('galano-grotesque-font/GalanoGrotesqueAlt-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: GalanoGrotesque-Regular, sans-serif;
   scroll-behavior: smooth;
+  
 }
 :root {
   background: #fffef9;
@@ -16,25 +46,7 @@ body {
   --purple: #3F3350;
   --black: #000;
 }
-.fixed-section {
-  /* position: fixed !important; */
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #bffeff;
-  z-index: -1000;
-  height: 100%;
-  bottom: 0;
-}
-.fixed-section2 {
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff59b;
-  z-index: -1000;
-  /* height: 100%; */
-}
+
 .box-text {
   margin-top: 7px;
   text-align: center;
@@ -44,40 +56,18 @@ body {
   line-height: 1.5rem;
   pointer-events: none;
 }
-.line-text2 {
-  /* font-family: GalanoGrotesque-Regular,sans-serif; */
-  /* font-weight: 200; */
-  font-size: 2.875rem;
-  line-height: 3.5rem;
-  letter-spacing: .46px;
-}
-.data-title2 {
-  font-family: GalanoGrotesque-Regular, sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-}
-/* .animated-border {
- border-radius: 50%/ 7% 7% 0 0;
-  border-right: none;
-  border-bottom: none;
-  margin: 0;
-  margin-top: 700px;
-  max-width: 120rem;
-  padding: 8.5rem 1rem;
-  background-color: #fffdf6;
-  transform: translateY(0);
-  animation: bounceUpDown 1s infinite alternate;
-} */
+
 .headermain {
   background-color: #bffeff;
   top: 0;
+  position: sticky !important;
+  z-index: 1000px;
+  height: 100vh;
 }
 .sec_two {
 /* margin-top: -20px; */
   width: 100%;
   background-color: #fffdf6;
-  padding: 8.5rem 1rem !important;
 }
 .cursor.white {
   background-color: white;
@@ -136,9 +126,6 @@ body {
   font-weight: bolder;
   top: -7px;
 }
-/* .navbar {
-  padding: 30px;
-} */
 .nav-item .nav-link:hover {
   transform: translateY(-7px);
 }
@@ -147,7 +134,7 @@ body {
   border: 2px solid black;
 }
 .para_head{
-  font-family: GalanoGrotesque-Regular,sans-serif;
+  font-family: GalanoGrotesqueAlt-Regular, sans-serif;
   font-weight: 400;
   max-width: 800px;
   font-size: 2.2rem;
@@ -160,7 +147,7 @@ body {
   font-weight: bolder;
 }
 .line-text {
-  font-family: GalanoGrotesqueAlt-Medium, sans-serif;
+  font-family: GalanoGrotesqueAlt-Regular, sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -183,42 +170,7 @@ body {
   border-radius: 50%;
   border: 2px solid black;
 }
-.dots-container {
-  position: fixed;
-  top: 50%;
-  left: 60px;
-  /* Update the left position */
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  z-index: 1000;
-}
-.dot {
-  width: 10px;
-  height: 10px;
-  margin-bottom: 23px;
-  background-color: transparent;
-  border-radius: 50%;
-  border: 2px solid black;
-  transition: background-color 0.3s ease;
-  /* Add transition property */
-}
-.dot.active {
-  background-color: black;
-}
-.animated-border3.section-white {
-  background-color: black;
-  border: 2px solid #fffdf6;
-}
-.black .dot.active {
-  border: 2px solid #fffdf6;
-  background-color: #fffdf6;
-}
-.black .dot {
-  background-color: transparent;
-  border: 2px solid white;
-}
+
 ul.check1 li {
   list-style: none;
   font-family: GalanoGrotesqueAlt-Medium, sans-serif;
@@ -318,22 +270,13 @@ ul.check1 li {
   height: 100px;
   width: 250px;
 }
-/* .slider .slide  {
-  width: 204px;
-  height: 100px;
-  border-radius: 5px;
-  border: 2px solid #bbbbbb;
-  background: #fff;
-  color: #1a1a1a;
-} */
 .card-img {
   width: 215px !important;
   padding-top: 5px !important;
   padding-left: 5px !important;
-padding-left: 20px !important;
-padding-right: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   border-radius: 5px;
-  /* border: 2px solid #bbbbbb; */
   background: #fff;
   color: #1a1a1a;
 }
@@ -366,7 +309,6 @@ padding-right: 20px !important;
   border: 1px solid rgba(136, 136, 137, .1) !important;
   box-sizing: border-box;
   box-shadow: 0 8px 24px rgba(0, 0, 0, .24) !important;
-  /* background: #1a1a1a; */
   border-radius: 4px;
   padding: 1rem 2rem 1rem 1rem;
   font-family: GalanoGrotesqueAlt-Medium, sans-serif;
@@ -378,8 +320,6 @@ padding-right: 20px !important;
 }
 .animated-border4 {
   border-left: none !important;
-  /* border: 2px solid black; */
-  /* border-radius: 50%/ 7% 7% 0 0; */
   color: #1a1a1a;
   border-right: none;
   border-bottom: none;
@@ -391,14 +331,13 @@ padding-right: 20px !important;
   animation: bounceUpDown 1s infinite alternate;
 }
 .txt-cen {
-  font-family: GalanoGrotesque-Regular, sans-serif;
-  font-weight: 400;
+  font-family: GalanoGrotesqueAlt-Regular, sans-serif;
   font-size: 2.875rem;
   line-height: 3.5rem;
-  letter-spacing: 3.46px;
+  /* letter-spacing: 3.46px; */
 }
 .txt-cen2 {
-  font-family: GalanoGrotesque-Regular, sans-serif;
+  font-family: GalanoGrotesqueAlt-Regular, sans-serif;
   font-weight: 400;
   font-size: 2.875rem;
   line-height: 3.5rem;
@@ -406,7 +345,7 @@ padding-right: 20px !important;
 }
 .sm_para {
   margin-bottom: 3rem;
-  font-family: GalanoGrotesque-Regular, sans-serif;
+  font-family: GalanoGrotesqueAlt-Regular, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -446,6 +385,7 @@ padding-right: 20px !important;
   border-radius: 50%;
   width: 56px;
   height: 56px;
+  transition: .4s;
 }
 .slider-control svg{
   width: 25px;

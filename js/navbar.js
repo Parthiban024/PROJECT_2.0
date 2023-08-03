@@ -77,30 +77,30 @@ class Mynavbar extends HTMLElement {
 
 <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-  <a class="navbar-brand d-lg-none" href="/"><img src="/img/logo.jpg" alt="logo"></a>
+  <a class="navbar-brand d-lg-none" href="/"><img src="" alt="">LOGO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span><i onclick="myFunction(this)" class="fa-light fa-bars"></i></span>
       </button>
     <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-    <a class="navbar-brand d-none d-lg-block" href="/"><img src="/img/logo.jpg" alt="logo"></a>
+    <a class="navbar-brand d-none d-lg-block" href="/"><img src="" alt="">LOGO</a>
       <ul class="navbar-nav">
         <li class="nav-item ${currentLocation.includes('index.html') ? 'active' : ''}" >
         <a class="nav-link animate-link " href="index.html" aria-expanded="false">Home</a>
         </li>
         <li class="nav-item ${currentLocation.includes('cv.html') ? 'active' : ''}">
-        <a class="nav-link animate-link" href="cv.html">Computer Vision </a>
+        <a class="nav-link animate-link" href="cv.html">Solutions</a>
         </li>
 
         <li class="nav-item ${currentLocation.includes('nlp.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="nlp.html">NLP</a>
+        <a class="nav-link animate-link " href="nlp.html">Company</a>
         </li>
-        <li class="nav-item ${currentLocation.includes('gen_ai.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="gen_ai.html">Generative AI</a>
+        <li class="nav-item ${currentLocation.includes('contet_moderation.html') ? 'active' : ''}">
+        <a class="nav-link animate-link " href="contet_moderation.html">Content Moderation</a>
       </li>
       <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
-      <a class="nav-link  animate-link" href="about.html">About</a>
+      <a class="nav-link  animate-link" href="about.html">Blog</a>
       </li>
       </ul>
      

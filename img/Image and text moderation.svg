@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   sodipodi:docname="Image and text moderation.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,150 H 150 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Image and text moderation"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(110.3838,62.96)">
+          <path
+             d="m 0,0 h -70.768 c -3.11,0 -5.632,2.522 -5.632,5.632 v 49.036 c 0,3.11 2.522,5.632 5.632,5.632 H 0 c 3.11,0 5.632,-2.522 5.632,-5.632 V 5.632 C 5.632,2.522 3.11,0 0,0"
+             style="fill:#fffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <g
+           id="g22"
+           transform="translate(110.3838,62.96)">
+          <path
+             d="m 0,0 h -70.768 c -3.11,0 -5.632,2.522 -5.632,5.632 v 49.036 c 0,3.11 2.522,5.632 5.632,5.632 H 0 c 3.11,0 5.632,-2.522 5.632,-5.632 V 5.632 C 5.632,2.522 3.11,0 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path24" />
+        </g>
+        <g
+           id="g26"
+           transform="translate(66.2758,77.2746)">
+          <path
+             d="m 0,0 -20.452,-35.424 c -3.877,-6.716 0.969,-15.111 8.724,-15.111 h 40.904 c 7.755,0 12.602,8.395 8.724,15.111 L 17.448,0 C 13.571,6.716 3.877,6.716 0,0"
+             style="fill:#bffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path28" />
+        </g>
+        <g
+           id="g30"
+           transform="translate(66.2758,77.2746)">
+          <path
+             d="m 0,0 -20.452,-35.424 c -3.877,-6.716 0.969,-15.111 8.724,-15.111 h 40.904 c 7.755,0 12.602,8.395 8.724,15.111 L 17.448,0 C 13.571,6.716 3.877,6.716 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path32" />
+        </g>
+        <g
+           id="g34"
+           transform="translate(47.5278,108.4972)">
+          <path
+             d="M 0,0 H 43.087"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path36" />
+        </g>
+        <g
+           id="g38"
+           transform="translate(47.5278,98.5819)">
+          <path
+             d="M 0,0 H 43.087"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path40" />
+        </g>
+        <g
+           id="g42"
+           transform="translate(47.5278,88.6666)">
+          <path
+             d="M 0,0 H 43.087"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path44" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
