@@ -329,11 +329,11 @@
     }
 
     .process_one {
-      margin-top: 30px;
+      margin-top: 22px;
     }
 
     .process_three {
-      margin-top: 20px;
+      margin-top: 22px;
     }
 
     .our_process h3 {
@@ -361,6 +361,12 @@
         /* Hide the line stepper container on small screens */
         display: none !important;
       }
+.our_process{
+  display: grid;
+  grid-template-rows: 1fr;
+  align-content: center;
+    justify-content: center;
+}
 
 
     }
@@ -368,9 +374,11 @@
     /* Styles for small screen sizes (screen width below 1000px) */
     @media screen and (max-width: 1400px) {
       .process_three {
-        margin-top: 30px;
+        margin-top: 22px;
       }
-
+      .process_four{
+        margin-top: 22px;
+      }
 
     }
 

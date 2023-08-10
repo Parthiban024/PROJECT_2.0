@@ -89,15 +89,15 @@ class Mynavbar extends HTMLElement {
         <li class="nav-item ${currentLocation.includes('index.html') ? 'active' : ''}" >
         <a class="nav-link animate-link " href="index.html" aria-expanded="false">Home</a>
         </li>
-        <li class="nav-item ${currentLocation.includes('cv.html') ? 'active' : ''}">
-        <a class="nav-link animate-link" href="cv.html">Solutions</a>
+        <li class="nav-item ${currentLocation.includes('data_labeling.html') ? 'active' : ''}">
+        <a class="nav-link animate-link" href="data_labeling.html">Solutions</a>
         </li>
 
-        <li class="nav-item ${currentLocation.includes('nlp.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="nlp.html">Company</a>
+        <li class="nav-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}">
+        <a class="nav-link animate-link " href="data_sourcing.html">Company</a>
         </li>
-        <li class="nav-item ${currentLocation.includes('contet_moderation.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="contet_moderation.html">Content Moderation</a>
+        <li class="nav-item ${currentLocation.includes('content_moderation.html') ? 'active' : ''}">
+        <a class="nav-link animate-link " href="content_moderation.html">Content Moderation</a>
       </li>
       <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
       <a class="nav-link  animate-link" href="about.html">Blog</a>
@@ -105,8 +105,8 @@ class Mynavbar extends HTMLElement {
       </ul>
      
       <ul class="navbar-nav" style="width: 339px;display: flex;justify-content: flex-end;">  
-      <li class="nav-item">
-      <a class="nav-link " href="#">Contact</a>
+      <li class="nav-item ${currentLocation.includes('contact_us.html') ? 'active' : ''}">
+      <a class="nav-link " href="contact_us.html">Contact</a>
     </li>
       </ul>
      
