@@ -89,16 +89,26 @@ class Mynavbar extends HTMLElement {
         <li class="nav-item ${currentLocation.includes('index.html') ? 'active' : ''}" >
         <a class="nav-link animate-link " href="index.html" aria-expanded="false">Home</a>
         </li>
-        <li class="nav-item ${currentLocation.includes('data_labeling.html') ? 'active' : ''}">
-        <a class="nav-link animate-link" href="data_labeling.html">Solutions</a>
-        </li>
-
-        <li class="nav-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="data_sourcing.html">Company</a>
-        </li>
-        <li class="nav-item ${currentLocation.includes('content_moderation.html') ? 'active' : ''}">
-        <a class="nav-link animate-link " href="content_moderation.html">Content Moderation</a>
+        <li class="nav-item dropdown">
+        <a class="nav-link animate-link" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Solutions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+          <a class="dropdown-item ${currentLocation.includes('data_labeling.html') ? 'active' : ''}" href="data_labeling.html">Data Labeling</a>
+          <a class="dropdown-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="data_sourcing.html">Data Sourcing</a>
+          <a class="dropdown-item ${currentLocation.includes('content_moderation.html') ? 'active' : ''}" href="content_moderation.html">Content Moderation</a>
+        </div>
       </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link animate-link" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Company
+      </a>
+      <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+        <a class="dropdown-item ${currentLocation.includes('career.html') ? 'active' : ''}" href="career.html">Careers</a>
+        <a class="dropdown-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="security.html">Security</a>
+      </div>
+    </li>
       <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
       <a class="nav-link  animate-link" href="about.html">Blog</a>
       </li>
