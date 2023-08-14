@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
   function animateLink(e) {
     e.preventDefault();
     var link = this;
-
+  
     var overlay = document.createElement('div');
     overlay.className = 'page-overlay';
-
+  
     document.body.appendChild(overlay);
-
+  
     // Trigger the animation
     setTimeout(function() {
       overlay.classList.add('active');
@@ -94,9 +94,9 @@ class Mynavbar extends HTMLElement {
           Solutions
         </a>
         <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
-          <a class="dropdown-item ${currentLocation.includes('data_labeling.html') ? 'active' : ''}" href="data_labeling.html">Data Labeling</a>
-          <a class="dropdown-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="data_sourcing.html">Data Sourcing</a>
-          <a class="dropdown-item ${currentLocation.includes('content_moderation.html') ? 'active' : ''}" href="content_moderation.html">Content Moderation</a>
+          <a class="dropdown-item animate-link ${currentLocation.includes('data_labeling.html') ? 'active' : ''}" href="data_labeling.html">Data Labeling</a>
+          <a class="dropdown-item animate-link ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="data_sourcing.html">Data Sourcing</a>
+          <a class="dropdown-item animate-link ${currentLocation.includes('content_moderation.html') ? 'active' : ''}" href="content_moderation.html">Content Moderation</a>
         </div>
       </li>
 
@@ -105,8 +105,8 @@ class Mynavbar extends HTMLElement {
     Company
       </a>
       <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
-        <a class="dropdown-item ${currentLocation.includes('career.html') ? 'active' : ''}" href="career.html">Careers</a>
-        <a class="dropdown-item ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="security.html">Security</a>
+        <a class="dropdown-item animate-link ${currentLocation.includes('careers.html') ? 'active' : ''}" href="careers.html">Careers</a>
+        <a class="dropdown-item animate-link ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="security.html">Security</a>
       </div>
     </li>
       <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
@@ -116,7 +116,7 @@ class Mynavbar extends HTMLElement {
      
       <ul class="navbar-nav" style="width: 339px;display: flex;justify-content: flex-end;">  
       <li class="nav-item ${currentLocation.includes('contact_us.html') ? 'active' : ''}">
-      <a class="nav-link " href="contact_us.html">Contact</a>
+      <a class="nav-link animate-link" href="contact_us.html">Contact</a>
     </li>
       </ul>
      

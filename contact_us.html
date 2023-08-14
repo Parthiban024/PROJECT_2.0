@@ -1,11 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret1.0</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="res.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
-    
+  <div class="cursor"></div>
+  <ul id="pagination">
+    <li><a href="#page1"></a></li>
+    <li><a href="#page2"></a></li>
+    <!-- <li><a href="#page3"></a></li>
+    <li><a href="#page4"></a></li>
+    <li><a href="#page5"></a></li> -->
+  </ul>
+
+  <header class="headermain head_green" style="position: relative;">
+    <my-navbar></my-navbar>
+    <div>
+      <div class="">
+        <section class="container-fluid secOne second_center page" id="page1">
+            <div class="background">
+                <div class="container-cont">
+                  <div class="screen">
+                    <div class="screen-header">
+                      <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+                        <div class="app-title">
+                          <span>CONTACT</span>
+                          <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                      </div>
+                      <div class="screen-body-item">
+                        <div class="app-form">
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="EMAIL">
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="CONTACT NO">
+                          </div>
+                          <div class="app-form-group message">
+                            <input class="app-form-control" placeholder="MESSAGE">
+                          </div>
+                          <div class="app-form-group buttons">
+                            <button class="app-form-button">CANCEL</button>
+                            <button class="app-form-button">SEND</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="credits">
+                    inspired by
+                    <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
+                      <svg class="dribbble" viewBox="0 0 200 200">
+                        <g stroke="#ffffff" fill="none">
+                          <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                          <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
+                          <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
+                          <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
+                        </g>
+                      </svg>
+                      Gururaj
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+      </div>
+    </div>
+
+
+  </header>
+  <div>
+
+<section>
+    <div class="svg_bump">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160">
+          <path class="animated_path" fill="#fffdf6" stroke="#000000" stroke-width="2"
+            d="M0 80 C384 60 1536 60 1920 80" />
+        </svg>
+      </div>
+</section>
+  </div>
+  <section class="animated-border4">
+    <my-footer></my-footer>
+  </section>
+
+  <script>
+    (function scrollReveal() {
+      window.sr = ScrollReveal();
+
+      sr.reveal('.sec_ft', {
+        delay: 400,
+        duration: 700,
+        distance: '50px',
+        easing: 'ease-out',
+        origin: 'bottom',
+        reset: false,
+        scale: 1,
+        viewFactor: 0,
+        afterReveal: revealChildren,
+      }, 150);
+
+      var revealChildren = sr.reveal('.headline,', {
+        delay: 200,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildrenTwo = sr.reveal('.one', {
+        delay: 400,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildren = sr.reveal('.two', {
+        delay: 600,
+        duration: 400,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+      var revealChildren = sr.reveal('.three', {
+        delay: 800,
+        duration: 400,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+
+      }, 75);
+      var revealChildrenTwo = sr.reveal('.four', {
+        delay: 1000,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildrenTwo = sr.reveal('.five', {
+        delay: 1200,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+      var revealChildrenTwo = sr.reveal('.six', {
+        delay: 1400,
+        duration: 1000,
+        scale: 1,
+        distance: '70px',
+        origin: 'bottom',
+        reset: false,
+        easing: 'ease-out',
+        viewFactor: 1,
+      }, 75);
+    })();
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sliderMain').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: $('.slider-controls .slick-prev'),
+        nextArrow: $('.slider-controls .slick-next'),
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+
+  </script>
+  <script>
+    const svgs = document.querySelectorAll('.svg_bump, .svg_bump2');
+
+    let animationRunning = false;
+    let isScrolling;
+
+    const animationDelay = 650; // Adjust this value as needed to control the animation responsiveness
+
+    function playAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'running';
+      });
+      animationRunning = true;
+    }
+
+    function pauseAnimation() {
+      svgs.forEach((svg) => {
+        const animatedPath = svg.querySelector('.animated_path');
+        animatedPath.style.animationPlayState = 'paused';
+      });
+      animationRunning = false;
+    }
+
+    function handleScroll() {
+      // Clear the timeout to avoid multiple executions
+      clearTimeout(isScrolling);
+
+      // Set a timeout to wait for the user to stop scrolling
+      isScrolling = setTimeout(() => {
+        if (animationRunning) {
+          pauseAnimation();
+        }
+      }, animationDelay);
+
+      if (!animationRunning) {
+        playAnimation();
+      }
+    }
+
+    // Apply the event listener to the window for all SVGs
+    window.addEventListener('scroll', handleScroll);
+
+
+
+  </script>
+  <script>
+    $(function () {
+      $('.steps a').click(function () {
+        var tabId = $(this).attr('data-tab');
+
+        $('.steps a').removeClass('active');
+        $('.Tabcondent').removeClass('active');
+
+        $(this).addClass('active');
+        $('#' + tabId).addClass('active');
+      });
+
+    });
+  </script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/footer.js"></script>
+  <script src="https://kit.fontawesome.com/d45a5731a6.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
 </body>
+
 </html>
