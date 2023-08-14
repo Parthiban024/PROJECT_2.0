@@ -127,6 +127,7 @@ body {
 .nav-item.active .nav-link {
   font-weight: bolder;
   top: -7px;
+  color: #1a1a1a !important;
 }
 .nav-item .nav-link:hover {
   transform: translateY(-7px);
@@ -775,6 +776,19 @@ nav.navbar.navbar-expand-lg {
 .sec_ft{
   color: #fff !important;
   font-family: GalanoGrotesqueAlt-Regular, sans-serif !important;
+}
+.us_hd{
+  color: #1a1a1a !important;
+  font-family: GalanoGrotesqueAlt-Medium, sans-serif !important;
+  margin-top: 10px;
+  font-size: 25px !important;
+  text-transform: capitalize !important;
+}
+.us_hd_2{
+  color: #1a1a1a !important;
+  font-family: GalanoGrotesqueAlt-Medium, sans-serif !important;
+  margin-top: 20px;
+  font-size: 19px !important;
 }
 .cd-one{
   background-color: #ffdeac;

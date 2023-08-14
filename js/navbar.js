@@ -109,8 +109,8 @@ class Mynavbar extends HTMLElement {
         <a class="dropdown-item animate-link ${currentLocation.includes('data_sourcing.html') ? 'active' : ''}" href="security.html">Security</a>
       </div>
     </li>
-      <li class="nav-item ${currentLocation.includes('about.html') ? 'active' : ''}">
-      <a class="nav-link  animate-link" href="about.html">Blog</a>
+      <li class="nav-item ${currentLocation.includes('use_cases.html') ? 'active' : ''}">
+      <a class="nav-link  animate-link" href="use_cases.html">Usecases</a>
       </li>
       </ul>
      

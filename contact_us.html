@@ -18,7 +18,7 @@
   <div class="cursor"></div>
   <ul id="pagination">
     <li><a href="#page1"></a></li>
-    <li><a href="#page2"></a></li>
+    <!-- <li><a href="#page2"></a></li> -->
     <!-- <li><a href="#page3"></a></li>
     <li><a href="#page4"></a></li>
     <li><a href="#page5"></a></li> -->
@@ -35,7 +35,7 @@
                     <div class="screen-header">
                       <div class="screen-header-left">
                         <div class="screen-header-button close"></div>
-                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button maximize"></div>`
                         <div class="screen-header-button minimize"></div>
                       </div>
                       <div class="screen-header-right">
@@ -47,46 +47,37 @@
                     <div class="screen-body">
                       <div class="screen-body-item left">
                         <div class="app-title">
-                          <span>CONTACT</span>
-                          <span>US</span>
+                          <span class="one">CONTACT</span>
+                          <span class="two">US</span>
                         </div>
-                        <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                        <div class="app-contact six">CONTACT INFO : +1-800-343-5432</div>
                       </div>
-                      <div class="screen-body-item">
-                        <div class="app-form">
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
+                      <div class="screen-body-item contform">
+                        <form action="#" class="form_one" id="contactForm">
+                          <div class="app-form">
+                            <div class="app-form-group">
+                              <input class="app-form-control three" placeholder="NAME" name="name">
+
+                            </div>
+                            <div class="app-form-group">
+                              <input class="app-form-control four" placeholder="EMAIL" name="email">
+ 
+                            </div>
+                            <div class="app-form-group">
+                              <input class="app-form-control five" placeholder="CONTACT NO" name="contact">
+             
+                            </div>
+                            <div class="app-form-group message">
+                              <input class="app-form-control six" placeholder="MESSAGE" name="message">
+
+                            </div>
+                            <div class="app-form-group buttons">
+                              <button class="app-form-button six" onclick="submitForm(event)">SEND</button>
+                            </div>
                           </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="EMAIL">
-                          </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="CONTACT NO">
-                          </div>
-                          <div class="app-form-group message">
-                            <input class="app-form-control" placeholder="MESSAGE">
-                          </div>
-                          <div class="app-form-group buttons">
-                            <button class="app-form-button">CANCEL</button>
-                            <button class="app-form-button">SEND</button>
-                          </div>
-                        </div>
+                        </form>
                       </div>
                     </div>
-                  </div>
-                  <div class="credits">
-                    inspired by
-                    <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-                      <svg class="dribbble" viewBox="0 0 200 200">
-                        <g stroke="#ffffff" fill="none">
-                          <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-                          <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
-                          <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
-                          <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
-                        </g>
-                      </svg>
-                      Gururaj
-                    </a>
                   </div>
                 </div>
               </div>
@@ -139,8 +130,8 @@
         viewFactor: 1,
       }, 75);
       var revealChildrenTwo = sr.reveal('.one', {
-        delay: 400,
-        duration: 1000,
+
+        duration: 200,
         scale: 1,
         distance: '70px',
         origin: 'bottom',
@@ -149,7 +140,7 @@
         viewFactor: 1,
       }, 75);
       var revealChildren = sr.reveal('.two', {
-        delay: 600,
+        delay: 200,
         duration: 400,
         scale: 1,
         distance: '70px',
@@ -203,11 +194,75 @@
     })();
 
   </script>
+<script>
+  function submitForm(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+  
+    const name = document.forms["contactForm"]["name"].value;
+    const email = document.forms["contactForm"]["email"].value;
+    const contact = document.forms["contactForm"]["contact"].value;
+    const message = document.forms["contactForm"]["message"].value;
+  
+    let errorMessage = '';
+  
+    if (name === "") {
+      errorMessage += 'Please enter your name.\n';
+    }
+    
+    if (!validateEmail(email)) {
+      errorMessage += 'Please enter a valid email address.\n';
+    }
+    
+    if (!validateContact(contact)) {
+      errorMessage += 'Please enter a valid contact number.\n';
+    }
+  
+    if (message === "") {
+      errorMessage += 'Please enter a message.\n';
+    }
+  
+    if (errorMessage !== '') {
+      Swal.fire({
+        icon: 'error',
+        title: 'Validation Error',
+        text: errorMessage.trim(),
+        confirmButtonText: 'OK'
+      });
+      return;
+    }
+  
+    // Perform any additional actions before submitting (e.g., AJAX request)
+    // document.forms["contactForm"].submit(); // Uncomment this line to actually submit the form
+  
+    Swal.fire({
+      icon: 'success',
+      title: 'Success',
+      text: 'Form submitted successfully!',
+      confirmButtonText: 'OK'
+    });
+  
+    // Reset the form fields
+    document.getElementById("contactForm").reset();
+  }
+  
+  function validateEmail(email) {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  }
+  
+  function validateContact(contact) {
+    const contactPattern = /^\d{10}$/;
+    return contactPattern.test(contact);
+  }
+  </script>
+  
+    
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     $(document).ready(function () {
       $('.sliderMain').slick({
